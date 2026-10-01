@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "experiment": "nested_svm_hyperparameter_tuning",
+  "completed_at_utc": "2026-07-30T06:26:04+00:00",
+  "model_id": "wavlm_base_plus_sv",
+  "embedding_tag": "full",
+  "model": {
+    "display_name": "Microsoft — WavLM Base Plus SV",
+    "provider": "Microsoft",
+    "architecture": "WavLM Transformer",
+    "pretrained_name": "microsoft/wavlm-base-plus-sv",
+    "source": null,
+    "embedding_dimension": 512
+  },
+  "protocol": {
+    "mode": "external_protocol_file",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_2fold_protocol.csv",
+    "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+    "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d",
+    "row_count": 2185,
+    "samples": 2185,
+    "fold_values": [
+      1,
+      2
+    ],
+    "fold_counts": {
+      "1": 1069,
+      "2": 1116
+    },
+    "number_of_folds": 2,
+    "speaker_count": 31,
+    "speakers": 31,
+    "source_group_count": 88,
+    "source_groups": 88,
+    "embedding_dimension": 512,
+    "outer_split": "source_group_chapter_held_out",
+    "source_group_disjoint_enforced": true,
+    "every_speaker_in_outer_train_and_test": true,
+    "each_sample_tested_once": true,
+    "exact_clip_leakage_detected": false
+  },
+  "tuning": {
+    "selection_metric": "f1_macro",
+    "refit_best_estimator": true,
+    "outer_test_used_in_tuning": false,
+    "inner_cv": {
+      "type": "deterministic_shuffled_utterance_stratified",
+      "folds": 3,
+      "shuffle": true,
+      "random_state": 42,
+      "partition": "outer_training_only",
+      "source_group_disjoint_enforced": false,
+      "reason": "Some outer-training speakers have only one remaining chapter, so chapter-grouped inner CV cannot retain every speaker in every inner fold. Inner selection never accesses the untouched outer test partition."
+    },
+    "pipeline": [
+      {
+        "name": "StandardScaler",
+        "fit_partition": "each GridSearchCV inner-training partition",
+        "with_mean": true,
+        "with_std": true
+      },
+      {
+        "name": "SVC",
+        "probability": false,
+        "decision_function_shape": "ovr"
+      }
+    ],
+    "parameter_grid": {
+      "linear": {
+        "kernel": "linear",
+        "C": [
+          0.01,
+          0.1,
+          1.0,
+          10.0,
+          100.0
+        ]
+      },
+      "rbf": {
+        "kernel": "rbf",
+        "C": [
+          0.01,
+          0.1,
+          1.0,
+          10.0,
+          100.0
+        ],
+        "gamma": [
+          "scale",
+          "auto",
+          0.0001,
+          0.001,
+          0.01
+        ]
+      },
+      "candidate_count_per_outer_fold": 30
+    },
+    "n_jobs": 1,
+    "seed": 42
+  },
+  "embedding_artifacts": {
+    "directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\wavlm_base_plus_sv\\full",
+    "available_samples": 2703,
+    "selected_protocol_samples": 2185,
+    "excluded_samples": 518,
+    "manifest": {
+      "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+      "sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+      "row_count": 2703
+    },
+    "sha256": {
+      "X.npy": "336b44ac3c3ee7e31734a6d53719d554f42fba52c9aa2b1868bcb65b8add6c2e",
+      "y.npy": "2991812be9ca01e249fd5ea685b4ffdb738780c74f392a43c06616e1b519b44d",
+      "clip_ids.npy": "31fa152698a0eee897f56614ca268747b69295aafae4599484c89ed361efed35",
+      "folds.npy": "54cbfe144efdcc1708c2f5e9f8a1d8c398089a4f576b9102fb69c11cbd72434e",
+      "metadata.json": "443834e09bf37cf0be127ceafcb1f9a6ba322be6bedc4d856c42710aab6e9f0c"
+    },
+    "source_metadata": {
+      "schema_version": 1,
+      "experiment": "manifest_embedding_extraction",
+      "tag": "full",
+      "model_id": "wavlm_base_plus_sv",
+      "display_name": "Microsoft — WavLM Base Plus SV",
+      "provider": "Microsoft",
+      "architecture": "WavLM Transformer",
+      "pretrained_name": "microsoft/wavlm-base-plus-sv",
+      "device": "cpu",
+      "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+      "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+      "requested_rows": 2703,
+      "processed_rows": 2703,
+      "successful_rows": 2703,
+      "failed_rows": 0,
+      "coverage_percent": 100.0,
+      "embedding_dimension": 512,
+      "number_of_speakers": 40,
+      "number_of_folds": 5,
+      "cold_first_success_ms": 11378.363900003023,
+      "all_success_timing_ms": {
+        "minimum": 159.47990003041923,
+        "median": 444.2162000341341,
+        "mean": 547.189855865269,
+        "p95": 1230.4307000013068,
+        "maximum": 11378.363900003023,
+        "total": 1479054.180403822
+      },
+      "warm_success_timing_ms": {
+        "minimum": 159.47990003041923,
+        "median": 444.1835500183515,
+        "mean": 543.1812792390152,
+        "p95": 1230.0792000023648,
+        "maximum": 2904.4470000080764,
+        "total": 1467675.816503819
+      },
+      "wall_seconds": 1523.9695815999294,
+      "failure_types": {},
+      "completed_at_utc": "2026-07-30T05:20:10+00:00"
+    }
+  },
+  "manifest": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+    "sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+    "row_count": 2703
+  },
+  "software": {
+    "python": "3.12.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.0.2",
+      "scikit-learn": "1.7.1",
+      "scipy": "1.18.0",
+      "joblib": "1.5.1"
+    },
+    "scikit_learn": "1.7.1"
+  },
+  "code": {
+    "script": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research\\run_nested_svm_tuning.py",
+    "script_sha256": "d3112450f18cfabbaab1c85356a5ed8db1128a5a85d5a752defbbc5394a91fd2"
+  },
+  "results": {
+    "outer_fold_count": 2,
+    "aggregate_metrics_file": "aggregate_metrics.json",
+    "fold_metrics_file": "fold_metrics.csv",
+    "selected_parameters_file": "selected_parameters.csv",
+    "grid_search_results_file": "grid_search_results.csv",
+    "all_predictions_file": "all_predictions.csv",
+    "leakage_audit_file": "leakage_audit.csv"
+  },
+  "wall_seconds": 40.569048700039275,
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\hyperparameter_tuning\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\svm\\wavlm_base_plus_sv\\full"
+}

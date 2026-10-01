@@ -1,0 +1,13 @@
+{
+  "model_id": "wavlm_base_plus_sv",
+  "threshold": 0.49125,
+  "validation_far": 0.18865598027127004,
+  "validation_frr": 0.18926296633303002,
+  "test_far": 0.18988902589395806,
+  "test_frr": 0.18,
+  "test_balanced_accuracy": 0.8150554870530209,
+  "test_roc_auc": 0.8926017262638717,
+  "known_test_samples": 1100,
+  "unknown_test_samples": 811,
+  "calibration_source": "enrolled five-speaker embeddings vs LibriSpeech dev-clean"
+}

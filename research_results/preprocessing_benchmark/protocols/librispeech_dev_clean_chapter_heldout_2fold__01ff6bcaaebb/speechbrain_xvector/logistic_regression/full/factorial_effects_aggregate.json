@@ -1,0 +1,79 @@
+[
+  {
+    "model_id": "speechbrain_xvector",
+    "model_display_name": "SpeechBrain — X-Vector",
+    "effect_type": "main",
+    "effect_name": "denoise",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.003808243727598526,
+    "accuracy_effect_fold_sd": 0.005385669928392106,
+    "balanced_accuracy_effect_mean": -0.0040078599302145745,
+    "f1_macro_effect_mean": -0.004919063593500528
+  },
+  {
+    "model_id": "speechbrain_xvector",
+    "model_display_name": "SpeechBrain — X-Vector",
+    "effect_type": "main",
+    "effect_name": "normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 0.0,
+    "accuracy_effect_fold_sd": 0.0,
+    "balanced_accuracy_effect_mean": 0.0,
+    "f1_macro_effect_mean": 0.0
+  },
+  {
+    "model_id": "speechbrain_xvector",
+    "model_display_name": "SpeechBrain — X-Vector",
+    "effect_type": "main",
+    "effect_name": "trim",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 0.009558853113652566,
+    "accuracy_effect_fold_sd": 0.01161743503345075,
+    "balanced_accuracy_effect_mean": 0.009615364625586487,
+    "f1_macro_effect_mean": 0.011111413245524726
+  },
+  {
+    "model_id": "speechbrain_xvector",
+    "model_display_name": "SpeechBrain — X-Vector",
+    "effect_type": "three_way_interaction",
+    "effect_name": "trim:denoise:normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 0.0,
+    "accuracy_effect_fold_sd": 0.0,
+    "balanced_accuracy_effect_mean": 0.0,
+    "f1_macro_effect_mean": 0.0
+  },
+  {
+    "model_id": "speechbrain_xvector",
+    "model_display_name": "SpeechBrain — X-Vector",
+    "effect_type": "two_way_interaction",
+    "effect_name": "denoise:normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 0.0,
+    "accuracy_effect_fold_sd": 0.0,
+    "balanced_accuracy_effect_mean": 0.0,
+    "f1_macro_effect_mean": 0.0
+  },
+  {
+    "model_id": "speechbrain_xvector",
+    "model_display_name": "SpeechBrain — X-Vector",
+    "effect_type": "two_way_interaction",
+    "effect_name": "trim:denoise",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.000691741184438599,
+    "accuracy_effect_fold_sd": 0.00034466153781548194,
+    "balanced_accuracy_effect_mean": -0.00022573482771981457,
+    "f1_macro_effect_mean": -0.000260479654605128
+  },
+  {
+    "model_id": "speechbrain_xvector",
+    "model_display_name": "SpeechBrain — X-Vector",
+    "effect_type": "two_way_interaction",
+    "effect_name": "trim:normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 0.0,
+    "accuracy_effect_fold_sd": 0.0,
+    "balanced_accuracy_effect_mean": 0.0,
+    "f1_macro_effect_mean": 0.0
+  }
+]

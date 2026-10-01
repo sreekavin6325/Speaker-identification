@@ -1,0 +1,79 @@
+[
+  {
+    "model_id": "unispeech_sat_base_plus_sv",
+    "model_display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+    "effect_type": "main",
+    "effect_name": "denoise",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.0029355517668004927,
+    "accuracy_effect_fold_sd": 0.010104687982909998,
+    "balanced_accuracy_effect_mean": -0.006672105321991251,
+    "f1_macro_effect_mean": -0.00426119675191744
+  },
+  {
+    "model_id": "unispeech_sat_base_plus_sv",
+    "model_display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+    "effect_type": "main",
+    "effect_name": "normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.0010080645161290591,
+    "accuracy_effect_fold_sd": 0.001425618510456787,
+    "balanced_accuracy_effect_mean": -0.0009432037870673593,
+    "f1_macro_effect_mean": -0.0005866492245554245
+  },
+  {
+    "model_id": "unispeech_sat_base_plus_sv",
+    "model_display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+    "effect_type": "main",
+    "effect_name": "trim",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.005956078102001328,
+    "accuracy_effect_fold_sd": 0.007100235127903103,
+    "balanced_accuracy_effect_mean": -0.004732261074674282,
+    "f1_macro_effect_mean": -0.004644778443682662
+  },
+  {
+    "model_id": "unispeech_sat_base_plus_sv",
+    "model_display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+    "effect_type": "three_way_interaction",
+    "effect_name": "trim:denoise:normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.0012419279398896421,
+    "accuracy_effect_fold_sd": 0.0010948856848315642,
+    "balanced_accuracy_effect_mean": -0.001079474507489353,
+    "f1_macro_effect_mean": -0.0011887721155878772
+  },
+  {
+    "model_id": "unispeech_sat_base_plus_sv",
+    "model_display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+    "effect_type": "two_way_interaction",
+    "effect_name": "denoise:normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 0.001505338624178898,
+    "accuracy_effect_fold_sd": 0.001178457957973433,
+    "balanced_accuracy_effect_mean": 0.0013900747647878076,
+    "f1_macro_effect_mean": 0.0015179727432261814
+  },
+  {
+    "model_id": "unispeech_sat_base_plus_sv",
+    "model_display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+    "effect_type": "two_way_interaction",
+    "effect_name": "trim:denoise",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 0.0009588190819143083,
+    "accuracy_effect_fold_sd": 0.004663303205756621,
+    "balanced_accuracy_effect_mean": 0.00022015818523946074,
+    "f1_macro_effect_mean": -0.0005174041180155964
+  },
+  {
+    "model_id": "unispeech_sat_base_plus_sv",
+    "model_display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+    "effect_type": "two_way_interaction",
+    "effect_name": "trim:normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.00011200716845877201,
+    "accuracy_effect_fold_sd": 0.00015840205671740332,
+    "balanced_accuracy_effect_mean": -3.236030851438976e-05,
+    "f1_macro_effect_mean": 0.00012476971031560868
+  }
+]

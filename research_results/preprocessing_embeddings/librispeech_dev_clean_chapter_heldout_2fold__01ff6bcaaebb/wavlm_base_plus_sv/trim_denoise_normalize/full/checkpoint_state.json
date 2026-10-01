@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "model_id": "wavlm_base_plus_sv",
+  "variant": "trim_denoise_normalize",
+  "protocol_sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+  "next_row_index": 2185,
+  "embedding_dimension": 512,
+  "processed_rows": 2185,
+  "successful_rows": 2185,
+  "updated_at_utc": "2026-08-05T16:36:16+00:00"
+}

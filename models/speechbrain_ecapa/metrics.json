@@ -1,0 +1,29 @@
+{
+    "model_id": "speechbrain_ecapa",
+    "display_name": "SpeechBrain \u2014 ECAPA-TDNN",
+    "provider": "SpeechBrain",
+    "architecture": "ECAPA-TDNN",
+    "embedding_dimension": 192,
+    "number_of_samples": 7414,
+    "number_of_speakers": 5,
+    "training_samples": 5931,
+    "testing_samples": 1483,
+    "kernel": "rbf",
+    "c_value": 10.0,
+    "split_unit": "utterance",
+    "split_limitation": "Source recording/session IDs are unavailable for the original five-speaker corpus; adjacent fragments may cross partitions.",
+    "training_accuracy": 0.9851627044343281,
+    "accuracy": 0.8873904248145651,
+    "precision_weighted": 0.8884987254826638,
+    "recall_weighted": 0.8873904248145651,
+    "f1_weighted": 0.88778151791868,
+    "f1_macro": 0.887565807051633,
+    "training_seconds": 7.27794180001365,
+    "speakers": [
+        "Benjamin_Netanyau",
+        "Jens_Stoltenberg",
+        "Julia_Gillard",
+        "Magaret_Tarcher",
+        "Nelson_Mandela"
+    ]
+}

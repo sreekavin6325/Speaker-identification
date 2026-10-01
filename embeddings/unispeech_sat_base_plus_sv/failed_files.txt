@@ -1,0 +1,1251 @@
+File: processed_dataset\Benjamin_Netanyau\1024.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.352 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1027.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1031.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1034.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1037.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1042.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1047.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1054.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1055.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.352 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1083.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1095.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1107.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\111.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1110.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1111.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1115.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1141.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1149.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\117.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1172.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1173.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.296 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1177.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\119.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\121.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\124.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1248.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1252.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1254.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1265.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1269.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\127.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1271.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1273.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1283.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1288.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1295.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.288 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\13.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1303.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1310.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1311.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.296 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1314.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1323.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1354.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1420.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1436.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1472.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1482.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1488.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.352 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1489.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\152.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\158.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.256 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\164.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\181.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\21.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\225.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\228.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\230.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\235.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\244.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\260.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.104 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\266.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.352 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\271.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\278.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\286.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\292.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\295.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.352 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\3.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\305.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.256 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\311.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\313.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\314.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\318.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\32.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\322.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\323.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\331.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\334.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\337.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\36.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\423.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\425.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\439.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\440.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\443.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\447.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\450.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\452.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\456.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.072 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\459.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\468.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\482.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\503.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\504.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.224 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\508.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\510.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\517.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\52.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\521.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\522.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\532.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\544.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\545.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\556.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\56.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\582.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\583.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\6.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.104 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\605.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\606.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\610.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\615.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\627.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\643.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\655.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\679.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.296 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\694.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\717.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\749.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\750.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\758.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\761.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\770.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\775.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\783.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\784.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\798.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\801.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\804.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\819.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\825.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\830.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\837.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\847.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\849.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\852.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\854.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\866.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\867.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\875.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\877.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\880.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\885.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\892.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\901.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.288 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\902.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\912.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.296 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\915.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\922.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\930.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\942.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\947.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\949.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\958.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\962.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\963.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\980.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\985.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.072 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\988.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\10.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1001.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1017.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1036.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1064.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1074.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.256 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1077.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.224 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1080.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.256 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1091.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1101.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1103.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1105.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1116.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1118.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1124.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\116.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1168.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1171.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1172.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1173.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1183.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1186.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1207.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1211.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1214.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1220.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1223.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1237.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1240.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1243.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1246.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\125.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.256 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1250.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.288 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1256.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1273.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1276.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.256 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1278.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1285.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1289.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1294.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1306.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1314.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1332.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.288 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1333.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1335.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1341.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1348.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1390.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.352 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1394.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1399.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1402.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.352 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1415.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1424.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1447.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1457.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1466.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1468.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1473.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.104 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1476.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\156.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\159.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\16.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\167.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\189.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\2.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.288 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\21.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\216.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\219.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\226.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.256 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\232.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.288 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\24.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\240.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\241.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\250.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.296 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\263.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.104 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\287.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\288.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\291.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\298.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\305.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\31.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\310.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\33.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\344.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\347.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\355.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\358.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\381.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.296 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\389.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\394.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\395.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\412.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\464.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.192 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\476.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.352 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\487.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\503.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\506.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\509.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\511.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\517.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\521.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\525.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\526.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\558.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\563.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\570.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\574.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\575.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\584.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\592.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\594.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.288 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\624.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.288 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\627.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\630.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.352 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\637.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\640.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\644.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\647.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\650.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\651.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\658.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\682.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.288 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\686.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\693.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.296 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\706.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\71.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\726.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\729.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\73.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\731.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\745.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\75.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\750.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\752.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.224 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\759.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.384 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\762.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\765.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\767.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\780.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\783.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\785.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\788.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\79.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.256 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\791.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\795.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\799.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\825.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\829.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\83.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.288 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\830.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\838.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\841.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\846.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.256 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\863.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\869.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\871.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.296 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\873.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.104 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\880.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\9.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\906.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.104 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\908.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\910.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.256 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\918.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\919.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.296 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\922.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\925.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\933.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\937.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.352 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\940.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.320 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\951.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.224 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\958.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\961.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\969.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.104 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\980.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\988.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.288 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\997.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\998.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\100.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1003.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1007.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1027.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1033.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1073.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1079.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1088.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1114.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1119.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1122.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1143.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1162.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1163.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1181.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1219.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1222.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1237.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1242.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1243.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.352 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\135.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1417.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\142.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.296 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1424.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\147.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.104 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\159.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\161.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\182.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\187.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.136 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\226.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\229.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\239.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\283.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\316.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\355.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\369.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\374.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\378.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\407.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\410.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.168 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\412.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\417.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\446.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\450.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\463.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\483.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\489.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\500.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\509.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.488 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\513.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\542.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\551.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\570.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.352 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\571.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\587.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\60.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\611.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\620.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.200 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\67.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\672.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\673.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\68.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.296 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\709.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\717.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.456 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\794.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\809.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.480 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\815.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.392 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\821.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.424 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\833.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\845.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.416 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\850.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\854.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\861.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\874.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.360 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\885.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\892.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\895.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.264 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\947.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.232 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\950.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.328 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\956.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.296 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\968.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\993.wav
+Error: Audio is too short for reliable speaker identification. Duration: 0.448 seconds. Minimum: 0.5 seconds.
+----------------------------------------------------------------------

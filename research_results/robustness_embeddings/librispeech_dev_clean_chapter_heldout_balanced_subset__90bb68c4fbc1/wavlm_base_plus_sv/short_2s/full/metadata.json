@@ -1,0 +1,59 @@
+{
+  "schema_version": 2,
+  "experiment": "robustness_embedding_extraction",
+  "completed_at_utc": "2026-08-06T04:45:02+00:00",
+  "model_id": "wavlm_base_plus_sv",
+  "model": {
+    "display_name": "Microsoft — WavLM Base Plus SV",
+    "provider": "Microsoft",
+    "architecture": "WavLM Transformer",
+    "pretrained_name": "microsoft/wavlm-base-plus-sv"
+  },
+  "condition": "short_2s",
+  "condition_definition": {
+    "family": "short_duration",
+    "duration_seconds": 2.0,
+    "crop": "center"
+  },
+  "seed": 42,
+  "tag": "full",
+  "protocol": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_balanced_subset_protocol.csv",
+    "sha256": "90bb68c4fbc1b741196d7e02808d3ac6bee8a6551ae6da160056556df538f5cf",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1",
+    "selected_row_count": 186,
+    "fold_values": [
+      1,
+      2
+    ],
+    "speaker_count": 31,
+    "source_group_count": 82,
+    "source_group_disjoint": true
+  },
+  "requested_rows": 186,
+  "successful_rows": 186,
+  "failed_rows": 0,
+  "coverage_percent": 100.0,
+  "embedding_dimension": 512,
+  "number_of_speakers": 31,
+  "number_of_folds": 2,
+  "timing_ms": {
+    "minimum": 133.4494,
+    "median": 223.4782,
+    "mean": 230.46100270022885,
+    "p95": 294.9253,
+    "maximum": 12258.1459,
+    "total": 503557.2909
+  },
+  "wall_seconds": 508.1199468000559,
+  "failure_types": {},
+  "artifact_sha256": {
+    "X.npy": "da21101da7aeb2134506ba7df25313baa47e28b3e7ebcd55c6e65e05465e5bbc",
+    "y.npy": "10c21aaa519a6c20f44c5779544ef61881c25d40d20283217f1d6240254a2a21",
+    "clip_ids.npy": "589d7c42dfa9d46e1d71b179e956dffde294fb593ba37d6241e28c708de09b7b",
+    "folds.npy": "afea595b3ce5549ec39ed16046932f7b3351be29b980827e8ce6825ed6639c47"
+  },
+  "derived_audio_retained": false,
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\wavlm_base_plus_sv\\short_2s\\full",
+  "derived_from_full_protocol_artifact": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\wavlm_base_plus_sv\\short_2s\\full"
+}

@@ -1,0 +1,608 @@
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — ECAPA-TDNN
+Classifier : linear_svm
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\linear_svm\full
+========================================================================
+Fold  1: accuracy= 98.50%  macro-F1=0.9873  train=1116 test=1069
+Fold  2: accuracy= 98.30%  macro-F1=0.9830  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 98.40% ± 0.15% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\linear_svm\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — ECAPA-TDNN
+Classifier : rbf_svm
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\rbf_svm\full
+========================================================================
+Fold  1: accuracy= 97.85%  macro-F1=0.9805  train=1116 test=1069
+Fold  2: accuracy= 98.03%  macro-F1=0.9795  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 97.94% ± 0.13% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\rbf_svm\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — ECAPA-TDNN
+Classifier : logistic_regression
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\logistic_regression\full
+========================================================================
+Fold  1: accuracy= 99.44%  macro-F1=0.9944  train=1116 test=1069
+Fold  2: accuracy= 98.39%  macro-F1=0.9838  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 98.91% ± 0.74% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\logistic_regression\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — ECAPA-TDNN
+Classifier : cosine_centroid
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\cosine_centroid\full
+========================================================================
+Fold  1: accuracy= 99.53%  macro-F1=0.9948  train=1116 test=1069
+Fold  2: accuracy= 98.48%  macro-F1=0.9848  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 99.00% ± 0.75% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\cosine_centroid\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — ECAPA-TDNN
+Classifier : knn
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\knn\full
+========================================================================
+Fold  1: accuracy= 98.32%  macro-F1=0.9841  train=1116 test=1069
+Fold  2: accuracy= 98.39%  macro-F1=0.9831  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 98.35% ± 0.05% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\knn\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — ECAPA-TDNN
+Classifier : random_forest
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\random_forest\full
+========================================================================
+Fold  1: accuracy= 98.69%  macro-F1=0.9864  train=1116 test=1069
+Fold  2: accuracy= 97.76%  macro-F1=0.9772  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 98.23% ± 0.66% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\random_forest\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — ECAPA-TDNN
+Classifier : decision_tree
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\decision_tree\full
+========================================================================
+Fold  1: accuracy= 60.15%  macro-F1=0.5928  train=1116 test=1069
+Fold  2: accuracy= 58.24%  macro-F1=0.5719  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 59.20% ± 1.35% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\decision_tree\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — ECAPA-TDNN
+Classifier : xgboost
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\xgboost\full
+========================================================================
+Fold  1: accuracy= 89.80%  macro-F1=0.8923  train=1116 test=1069
+Fold  2: accuracy= 91.22%  macro-F1=0.9094  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 90.51% ± 1.00% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\xgboost\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — X-Vector
+Classifier : linear_svm
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\linear_svm\full
+========================================================================
+Fold  1: accuracy= 93.64%  macro-F1=0.9341  train=1116 test=1069
+Fold  2: accuracy= 97.67%  macro-F1=0.9758  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 95.65% ± 2.85% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\linear_svm\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — X-Vector
+Classifier : rbf_svm
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\rbf_svm\full
+========================================================================
+Fold  1: accuracy= 91.96%  macro-F1=0.9161  train=1116 test=1069
+Fold  2: accuracy= 94.80%  macro-F1=0.9472  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 93.38% ± 2.01% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\rbf_svm\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — X-Vector
+Classifier : logistic_regression
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\logistic_regression\full
+========================================================================
+Fold  1: accuracy= 95.14%  macro-F1=0.9497  train=1116 test=1069
+Fold  2: accuracy= 97.67%  macro-F1=0.9760  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 96.40% ± 1.79% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\logistic_regression\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — X-Vector
+Classifier : cosine_centroid
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\cosine_centroid\full
+========================================================================
+Fold  1: accuracy= 94.29%  macro-F1=0.9444  train=1116 test=1069
+Fold  2: accuracy= 96.33%  macro-F1=0.9608  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 95.31% ± 1.44% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\cosine_centroid\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — X-Vector
+Classifier : knn
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\knn\full
+========================================================================
+Fold  1: accuracy= 92.80%  macro-F1=0.9298  train=1116 test=1069
+Fold  2: accuracy= 95.97%  macro-F1=0.9584  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 94.38% ± 2.24% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\knn\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — X-Vector
+Classifier : random_forest
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\random_forest\full
+========================================================================
+Fold  1: accuracy= 91.86%  macro-F1=0.9147  train=1116 test=1069
+Fold  2: accuracy= 94.18%  macro-F1=0.9394  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 93.02% ± 1.64% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\random_forest\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — X-Vector
+Classifier : decision_tree
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\decision_tree\full
+========================================================================
+Fold  1: accuracy= 60.15%  macro-F1=0.5754  train=1116 test=1069
+Fold  2: accuracy= 60.13%  macro-F1=0.5964  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 60.14% ± 0.02% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\decision_tree\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : SpeechBrain — X-Vector
+Classifier : xgboost
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\xgboost\full
+========================================================================
+Fold  1: accuracy= 81.95%  macro-F1=0.8161  train=1116 test=1069
+Fold  2: accuracy= 85.13%  macro-F1=0.8473  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 83.54% ± 2.25% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\xgboost\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — WavLM Base Plus SV
+Classifier : linear_svm
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\linear_svm\full
+========================================================================
+Fold  1: accuracy= 90.93%  macro-F1=0.9098  train=1116 test=1069
+Fold  2: accuracy= 93.46%  macro-F1=0.9312  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 92.19% ± 1.79% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\linear_svm\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — WavLM Base Plus SV
+Classifier : rbf_svm
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\rbf_svm\full
+========================================================================
+Fold  1: accuracy= 90.27%  macro-F1=0.9033  train=1116 test=1069
+Fold  2: accuracy= 91.67%  macro-F1=0.9117  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 90.97% ± 0.99% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\rbf_svm\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — WavLM Base Plus SV
+Classifier : logistic_regression
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\logistic_regression\full
+========================================================================
+Fold  1: accuracy= 91.67%  macro-F1=0.9147  train=1116 test=1069
+Fold  2: accuracy= 94.71%  macro-F1=0.9447  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 93.19% ± 2.15% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\logistic_regression\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — WavLM Base Plus SV
+Classifier : cosine_centroid
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\cosine_centroid\full
+========================================================================
+Fold  1: accuracy= 85.50%  macro-F1=0.8494  train=1116 test=1069
+Fold  2: accuracy= 87.28%  macro-F1=0.8557  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 86.39% ± 1.26% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\cosine_centroid\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — WavLM Base Plus SV
+Classifier : knn
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\knn\full
+========================================================================
+Fold  1: accuracy= 88.96%  macro-F1=0.8871  train=1116 test=1069
+Fold  2: accuracy= 91.94%  macro-F1=0.9177  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 90.45% ± 2.10% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\knn\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — WavLM Base Plus SV
+Classifier : random_forest
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\random_forest\full
+========================================================================
+Fold  1: accuracy= 91.21%  macro-F1=0.9126  train=1116 test=1069
+Fold  2: accuracy= 92.38%  macro-F1=0.9210  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 91.80% ± 0.83% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\random_forest\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — WavLM Base Plus SV
+Classifier : decision_tree
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\decision_tree\full
+========================================================================
+Fold  1: accuracy= 70.63%  macro-F1=0.6999  train=1116 test=1069
+Fold  2: accuracy= 66.22%  macro-F1=0.6585  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 68.42% ± 3.12% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\decision_tree\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — WavLM Base Plus SV
+Classifier : xgboost
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\xgboost\full
+========================================================================
+Fold  1: accuracy= 86.16%  macro-F1=0.8586  train=1116 test=1069
+Fold  2: accuracy= 90.14%  macro-F1=0.8993  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 88.15% ± 2.82% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\xgboost\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — UniSpeech-SAT Base Plus SV
+Classifier : linear_svm
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\linear_svm\full
+========================================================================
+Fold  1: accuracy= 90.93%  macro-F1=0.9071  train=1116 test=1069
+Fold  2: accuracy= 94.00%  macro-F1=0.9390  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 92.46% ± 2.17% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\linear_svm\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — UniSpeech-SAT Base Plus SV
+Classifier : rbf_svm
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\rbf_svm\full
+========================================================================
+Fold  1: accuracy= 90.46%  macro-F1=0.8996  train=1116 test=1069
+Fold  2: accuracy= 91.58%  macro-F1=0.9127  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 91.02% ± 0.79% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\rbf_svm\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — UniSpeech-SAT Base Plus SV
+Classifier : logistic_regression
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\logistic_regression\full
+========================================================================
+Fold  1: accuracy= 92.42%  macro-F1=0.9243  train=1116 test=1069
+Fold  2: accuracy= 94.71%  macro-F1=0.9456  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 93.57% ± 1.62% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\logistic_regression\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — UniSpeech-SAT Base Plus SV
+Classifier : cosine_centroid
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\cosine_centroid\full
+========================================================================
+Fold  1: accuracy= 84.19%  macro-F1=0.8377  train=1116 test=1069
+Fold  2: accuracy= 82.35%  macro-F1=0.8174  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 83.27% ± 1.30% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\cosine_centroid\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — UniSpeech-SAT Base Plus SV
+Classifier : knn
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\knn\full
+========================================================================
+Fold  1: accuracy= 89.15%  macro-F1=0.8888  train=1116 test=1069
+Fold  2: accuracy= 89.43%  macro-F1=0.8913  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 89.29% ± 0.20% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\knn\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — UniSpeech-SAT Base Plus SV
+Classifier : random_forest
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\random_forest\full
+========================================================================
+Fold  1: accuracy= 89.15%  macro-F1=0.8860  train=1116 test=1069
+Fold  2: accuracy= 89.25%  macro-F1=0.8866  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 89.20% ± 0.07% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\random_forest\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — UniSpeech-SAT Base Plus SV
+Classifier : decision_tree
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\decision_tree\full
+========================================================================
+Fold  1: accuracy= 63.80%  macro-F1=0.6187  train=1116 test=1069
+Fold  2: accuracy= 65.86%  macro-F1=0.6558  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 64.83% ± 1.46% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\decision_tree\full
+========================================================================
+
+========================================================================
+LEAKAGE-SAFE BASELINE CROSS-VALIDATION
+========================================================================
+Model      : Microsoft — UniSpeech-SAT Base Plus SV
+Classifier : xgboost
+Protocol   : librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb
+Samples    : 2185
+Speakers   : 31
+Folds      : 1, 2
+Output     : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\xgboost\full
+========================================================================
+Fold  1: accuracy= 87.00%  macro-F1=0.8532  train=1116 test=1069
+Fold  2: accuracy= 83.96%  macro-F1=0.8312  train=1069 test=1116
+------------------------------------------------------------------------
+Accuracy   : 85.48% ± 2.15% SD
+95% CI     : not reported (<3 fold values; mean and SD are descriptive)
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\baseline_cv\protocols\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\xgboost\full
+========================================================================

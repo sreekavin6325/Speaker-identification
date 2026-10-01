@@ -1,0 +1,13 @@
+model_id,model,method,samples,speakers,silhouette_score_2d,pca_explained_variance_2d
+speechbrain_ecapa,ECAPA-TDNN,PCA,800,40,-0.012666749767959118,0.0980268269777298
+speechbrain_ecapa,ECAPA-TDNN,t-SNE,800,40,0.8401137590408325,
+speechbrain_ecapa,ECAPA-TDNN,UMAP,800,40,0.9487770199775696,
+speechbrain_xvector,X-Vector,PCA,800,40,-0.11305005848407745,0.2020004391670227
+speechbrain_xvector,X-Vector,t-SNE,800,40,0.7219595909118652,
+speechbrain_xvector,X-Vector,UMAP,800,40,0.8647167682647705,
+wavlm_base_plus_sv,WavLM,PCA,800,40,-0.16545821726322174,0.4435075521469116
+wavlm_base_plus_sv,WavLM,t-SNE,800,40,0.49476906657218933,
+wavlm_base_plus_sv,WavLM,UMAP,800,40,0.65384840965271,
+unispeech_sat_base_plus_sv,UniSpeech-SAT,PCA,800,40,-0.18212950229644775,0.4953497052192688
+unispeech_sat_base_plus_sv,UniSpeech-SAT,t-SNE,800,40,0.40029388666152954,
+unispeech_sat_base_plus_sv,UniSpeech-SAT,UMAP,800,40,0.5352398753166199,

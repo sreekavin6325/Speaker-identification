@@ -1,0 +1,8 @@
+{
+  "unit_of_pairing": "identical persisted five-fold accuracy scores",
+  "primary_test": "two-sided Wilcoxon signed-rank",
+  "secondary_test": "two-sided paired t-test",
+  "multiple_comparison_correction": "Holm family-wise correction",
+  "alpha": 0.05,
+  "important_limitation": "Only five paired folds are available; tests have low power and must be interpreted with effect sizes and confidence intervals."
+}

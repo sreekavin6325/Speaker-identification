@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "model_id": "speechbrain_ecapa",
+  "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+  "next_row_index": 5,
+  "embedding_dimension": 192,
+  "successful_rows": 5,
+  "processed_rows": 5,
+  "updated_at_utc": "2026-07-30T04:43:40+00:00"
+}

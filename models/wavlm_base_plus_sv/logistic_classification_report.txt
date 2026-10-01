@@ -1,0 +1,11 @@
+                   precision    recall  f1-score   support
+
+Benjamin_Netanyau       0.81      0.83      0.82       288
+ Jens_Stoltenberg       0.85      0.85      0.85       284
+    Julia_Gillard       0.89      0.91      0.90       300
+  Magaret_Tarcher       0.91      0.90      0.90       294
+   Nelson_Mandela       0.88      0.86      0.87       300
+
+         accuracy                           0.87      1466
+        macro avg       0.87      0.87      0.87      1466
+     weighted avg       0.87      0.87      0.87      1466

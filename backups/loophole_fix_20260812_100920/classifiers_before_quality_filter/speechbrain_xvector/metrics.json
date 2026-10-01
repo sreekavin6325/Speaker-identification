@@ -1,0 +1,26 @@
+{
+    "model_id": "speechbrain_xvector",
+    "display_name": "SpeechBrain \u2014 X-Vector",
+    "provider": "SpeechBrain",
+    "architecture": "X-Vector TDNN",
+    "embedding_dimension": 512,
+    "number_of_samples": 7501,
+    "number_of_speakers": 5,
+    "training_samples": 6000,
+    "testing_samples": 1501,
+    "kernel": "rbf",
+    "c_value": 10.0,
+    "accuracy": 0.9193870752831446,
+    "precision_weighted": 0.9198699166877832,
+    "recall_weighted": 0.9193870752831446,
+    "f1_weighted": 0.9194797453326854,
+    "f1_macro": 0.9194646139157416,
+    "training_seconds": 8.034784800000125,
+    "speakers": [
+        "Benjamin_Netanyau",
+        "Jens_Stoltenberg",
+        "Julia_Gillard",
+        "Magaret_Tarcher",
+        "Nelson_Mandela"
+    ]
+}

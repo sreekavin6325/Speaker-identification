@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "experiment": "clean_train_transformed_test_robustness",
+  "completed_at_utc": "2026-08-05T07:15:45+00:00",
+  "model_id": "speechbrain_ecapa",
+  "model": {
+    "display_name": "SpeechBrain — ECAPA-TDNN",
+    "provider": "SpeechBrain",
+    "architecture": "ECAPA-TDNN",
+    "pretrained_name": "speechbrain/spkrec-ecapa-voxceleb",
+    "embedding_dimension": 192
+  },
+  "classifier": {
+    "name": "logistic_regression",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 5000,
+    "seed": 42,
+    "standard_scaler_fit_partition": "clean_outer_training_only"
+  },
+  "protocol": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_2fold_protocol.csv",
+    "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+    "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d",
+    "full_row_count": 2185,
+    "selected_row_count": 2185,
+    "fold_values": [
+      1,
+      2
+    ],
+    "speaker_count": 31,
+    "source_group_count": 88,
+    "source_group_disjoint": true,
+    "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+    "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+  },
+  "conditions": [
+    "clean_full",
+    "short_0p5s",
+    "short_1s",
+    "short_2s",
+    "short_3s",
+    "noise_white_20db",
+    "noise_white_10db",
+    "noise_white_0db"
+  ],
+  "condition_definitions": {
+    "short_0p5s": {
+      "family": "short_duration",
+      "duration_seconds": 0.5,
+      "crop": "center"
+    },
+    "short_1s": {
+      "family": "short_duration",
+      "duration_seconds": 1.0,
+      "crop": "center"
+    },
+    "short_2s": {
+      "family": "short_duration",
+      "duration_seconds": 2.0,
+      "crop": "center"
+    },
+    "short_3s": {
+      "family": "short_duration",
+      "duration_seconds": 3.0,
+      "crop": "center"
+    },
+    "noise_white_20db": {
+      "family": "additive_white_noise",
+      "snr_db": 20.0
+    },
+    "noise_white_10db": {
+      "family": "additive_white_noise",
+      "snr_db": 10.0
+    },
+    "noise_white_0db": {
+      "family": "additive_white_noise",
+      "snr_db": 0.0
+    }
+  },
+  "method": {
+    "training_domain": "clean full-duration embeddings only",
+    "evaluation_domain": "same held-out clips transformed per condition",
+    "outer_test_used_for_fit": false,
+    "training_augmentation": false
+  },
+  "alignment_checks": {
+    "exact_clip_order_across_conditions": true,
+    "exact_labels_across_conditions": true,
+    "exact_outer_folds_across_conditions": true,
+    "outer_clip_overlap_count": 0,
+    "outer_source_group_overlap_count": 0
+  },
+  "clean_artifacts": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\speechbrain_ecapa\\full",
+  "condition_artifacts": {
+    "short_0p5s": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\short_0p5s\\full",
+    "short_1s": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\short_1s\\full",
+    "short_2s": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\short_2s\\full",
+    "short_3s": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\short_3s\\full",
+    "noise_white_20db": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\noise_white_20db\\full",
+    "noise_white_10db": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\noise_white_10db\\full",
+    "noise_white_0db": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\noise_white_0db\\full"
+  },
+  "software": {
+    "python": "3.12.0",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "wall_seconds": 0.321020899922587,
+  "statistical_caution": "The two strict outer folds are correlated. Means and fold standard deviations are descriptive; no significance claim is made.",
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_benchmark\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\logistic_regression\\full"
+}

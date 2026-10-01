@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "experiment": "preprocessing_2x2x2_factorial_ablation",
+  "completed_at_utc": "2026-08-05T16:36:30+00:00",
+  "model_id": "speechbrain_ecapa",
+  "model": {
+    "display_name": "SpeechBrain — ECAPA-TDNN",
+    "provider": "SpeechBrain",
+    "architecture": "ECAPA-TDNN",
+    "embedding_dimension": 192
+  },
+  "classifier": {
+    "name": "logistic_regression",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 5000,
+    "seed": 42,
+    "standard_scaler_fit_partition": "variant outer-training only"
+  },
+  "protocol": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_2fold_protocol.csv",
+    "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+    "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d",
+    "full_row_count": 2185,
+    "selected_row_count": 2185,
+    "fold_values": [
+      1,
+      2
+    ],
+    "speaker_count": 31,
+    "source_group_count": 88,
+    "source_group_disjoint": true,
+    "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+    "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+  },
+  "variants": [
+    "raw",
+    "normalize",
+    "trim",
+    "denoise",
+    "trim_normalize",
+    "denoise_normalize",
+    "trim_denoise",
+    "trim_denoise_normalize"
+  ],
+  "variant_factors": {
+    "raw": {
+      "trim": false,
+      "denoise": false,
+      "normalize": false
+    },
+    "normalize": {
+      "trim": false,
+      "denoise": false,
+      "normalize": true
+    },
+    "trim": {
+      "trim": true,
+      "denoise": false,
+      "normalize": false
+    },
+    "denoise": {
+      "trim": false,
+      "denoise": true,
+      "normalize": false
+    },
+    "trim_normalize": {
+      "trim": true,
+      "denoise": false,
+      "normalize": true
+    },
+    "denoise_normalize": {
+      "trim": false,
+      "denoise": true,
+      "normalize": true
+    },
+    "trim_denoise": {
+      "trim": true,
+      "denoise": true,
+      "normalize": false
+    },
+    "trim_denoise_normalize": {
+      "trim": true,
+      "denoise": true,
+      "normalize": true
+    }
+  },
+  "preprocessing_parameters": {
+    "trim": {
+      "method": "numpy frame-RMS threshold relative to maximum frame RMS",
+      "top_db": 30.0,
+      "frame_length": 2048,
+      "hop_length": 512,
+      "minimum_output_seconds": 0.5
+    },
+    "denoise": {
+      "algorithm": "noisereduce stationary spectral gate",
+      "stationary": true,
+      "prop_decrease": 0.8,
+      "n_std_thresh_stationary": 1.5,
+      "n_fft": 1024,
+      "use_torch": false,
+      "n_jobs": 1
+    },
+    "normalize": {
+      "method": "peak",
+      "target_peak": 0.95
+    },
+    "order": [
+      "trim",
+      "denoise",
+      "normalize"
+    ]
+  },
+  "method": {
+    "training_and_test_preprocessing_matched": true,
+    "outer_test_used_for_fit": false,
+    "raw_reference_reuses_validated_clean_embeddings": true,
+    "factor_effect_estimator": "balanced coded-level contrast: mean(response | product code +1) minus mean(response | product code -1)"
+  },
+  "artifact_directories": {
+    "raw": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\speechbrain_ecapa\\full",
+    "normalize": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\preprocessing_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\normalize\\full",
+    "trim": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\preprocessing_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\trim\\full",
+    "denoise": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\preprocessing_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\denoise\\full",
+    "trim_normalize": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\preprocessing_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\trim_normalize\\full",
+    "denoise_normalize": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\preprocessing_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\denoise_normalize\\full",
+    "trim_denoise": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\preprocessing_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\trim_denoise\\full",
+    "trim_denoise_normalize": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\preprocessing_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\trim_denoise_normalize\\full"
+  },
+  "alignment_checks": {
+    "exact_clip_order_across_variants": true,
+    "exact_labels_across_variants": true,
+    "exact_outer_folds_across_variants": true,
+    "outer_clip_overlap_count": 0,
+    "outer_source_group_overlap_count": 0
+  },
+  "software": {
+    "python": "3.12.0",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "wall_seconds": 0.9842943999683484,
+  "statistical_caution": "The two strict outer folds are correlated. Means and fold standard deviations are descriptive; no significance claim is made.",
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\preprocessing_benchmark\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\logistic_regression\\full"
+}

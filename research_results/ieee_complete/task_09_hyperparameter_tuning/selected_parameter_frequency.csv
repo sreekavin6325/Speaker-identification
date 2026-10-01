@@ -1,0 +1,13 @@
+scope,model_order,model_id,model_display_name,kernel,C,gamma,selection_count,available_outer_folds,selection_percent
+model,1,speechbrain_ecapa,ECAPA-TDNN,linear,0.01,not_applicable,2,2,100.0
+model,2,speechbrain_xvector,X-Vector,linear,0.01,not_applicable,1,2,50.0
+model,2,speechbrain_xvector,X-Vector,rbf,10.0,0.0001,1,2,50.0
+model,3,wavlm_base_plus_sv,WavLM,rbf,1.0,scale,1,2,50.0
+model,3,wavlm_base_plus_sv,WavLM,rbf,10.0,0.001,1,2,50.0
+model,4,unispeech_sat_base_plus_sv,UniSpeech-SAT,linear,0.01,not_applicable,1,2,50.0
+model,4,unispeech_sat_base_plus_sv,UniSpeech-SAT,rbf,100.0,0.0001,1,2,50.0
+all_models,,ALL,All four models,linear,0.01,not_applicable,4,8,50.0
+all_models,,ALL,All four models,rbf,1.0,scale,1,8,12.5
+all_models,,ALL,All four models,rbf,10.0,0.0001,1,8,12.5
+all_models,,ALL,All four models,rbf,10.0,0.001,1,8,12.5
+all_models,,ALL,All four models,rbf,100.0,0.0001,1,8,12.5

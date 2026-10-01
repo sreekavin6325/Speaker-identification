@@ -1,0 +1,21 @@
+{
+    "model_id": "speechbrain_xvector",
+    "display_name": "SpeechBrain — X-Vector",
+    "provider": "SpeechBrain",
+    "architecture": "X-Vector TDNN",
+    "pretrained_name": "speechbrain/spkrec-xvect-voxceleb",
+    "sample_rate": 16000,
+    "embedding_dimension": 512,
+    "number_of_embeddings": 7501,
+    "number_of_speakers": 5,
+    "speakers": {
+        "Benjamin_Netanyau": 1500,
+        "Jens_Stoltenberg": 1500,
+        "Julia_Gillard": 1501,
+        "Magaret_Tarcher": 1500,
+        "Nelson_Mandela": 1500
+    },
+    "successful_files": 7501,
+    "failed_files": 0,
+    "created_at": "2026-07-23T12:50:28"
+}

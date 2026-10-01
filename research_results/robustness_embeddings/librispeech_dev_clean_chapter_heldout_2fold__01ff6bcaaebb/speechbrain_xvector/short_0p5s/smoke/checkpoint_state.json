@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "model_id": "speechbrain_xvector",
+  "condition": "short_0p5s",
+  "protocol_sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+  "seed": 42,
+  "next_row_index": 5,
+  "embedding_dimension": 512,
+  "processed_rows": 5,
+  "successful_rows": 5,
+  "updated_at_utc": "2026-08-05T04:33:03+00:00"
+}

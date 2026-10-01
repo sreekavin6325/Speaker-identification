@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "experiment": "manifest_embedding_extraction",
+  "tag": "full",
+  "model_id": "wavlm_base_plus_sv",
+  "display_name": "Microsoft — WavLM Base Plus SV",
+  "provider": "Microsoft",
+  "architecture": "WavLM Transformer",
+  "pretrained_name": "microsoft/wavlm-base-plus-sv",
+  "device": "cpu",
+  "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+  "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+  "requested_rows": 2703,
+  "processed_rows": 2703,
+  "successful_rows": 2703,
+  "failed_rows": 0,
+  "coverage_percent": 100.0,
+  "embedding_dimension": 512,
+  "number_of_speakers": 40,
+  "number_of_folds": 5,
+  "cold_first_success_ms": 11378.363900003023,
+  "all_success_timing_ms": {
+    "minimum": 159.47990003041923,
+    "median": 444.2162000341341,
+    "mean": 547.189855865269,
+    "p95": 1230.4307000013068,
+    "maximum": 11378.363900003023,
+    "total": 1479054.180403822
+  },
+  "warm_success_timing_ms": {
+    "minimum": 159.47990003041923,
+    "median": 444.1835500183515,
+    "mean": 543.1812792390152,
+    "p95": 1230.0792000023648,
+    "maximum": 2904.4470000080764,
+    "total": 1467675.816503819
+  },
+  "wall_seconds": 1523.9695815999294,
+  "failure_types": {},
+  "completed_at_utc": "2026-07-30T05:20:10+00:00"
+}

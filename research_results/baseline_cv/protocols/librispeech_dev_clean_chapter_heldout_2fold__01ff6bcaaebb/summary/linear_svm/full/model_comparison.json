@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "experiment": "four_model_external_protocol_baseline_summary",
+  "generated_at_utc": "2026-07-30T05:59:01+00:00",
+  "classifier": "linear_svm",
+  "embedding_tag": "full",
+  "evaluation_protocol": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_2fold_protocol.csv",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+    "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+    "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d",
+    "row_count": 2185,
+    "fold_values": [
+      1,
+      2
+    ],
+    "fold_counts": {
+      "1": 1069,
+      "2": 1116
+    },
+    "speakers": 31,
+    "source_groups": 88
+  },
+  "model_count": 4,
+  "ranking_rule": "Descending five-fold mean accuracy, then descending macro F1, then model_id.",
+  "common_protocol_validation": {
+    "passed": true,
+    "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+    "evaluation_protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+    "evaluation_protocol_sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+    "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d",
+    "fold_values": [
+      1,
+      2
+    ],
+    "number_of_folds": 2,
+    "samples": 2185,
+    "speakers": 31,
+    "validated_fields": [
+      "manifest_sha256",
+      "evaluation_protocol_id",
+      "evaluation_protocol_sha256",
+      "ordered_assignment_sha256",
+      "fold_values",
+      "sample_count",
+      "speaker_count"
+    ]
+  },
+  "statistical_reporting": {
+    "performance_central_value": "arithmetic mean over folds",
+    "performance_error_bar": "sample standard deviation over folds",
+    "confidence_interval": "raw two-sided 95% Student-t intervals copied from each aggregate_metrics.json",
+    "chart_physical_bounds": "performance error bars clipped to [0, 1] for display only; raw statistics are retained in this JSON",
+    "timing_source": "warm_success_timing_ms in each full embedding metadata.json"
+  },
+  "models": [
+    {
+      "accuracy_rank": 1,
+      "model_id": "speechbrain_ecapa",
+      "display_name": "SpeechBrain — ECAPA-TDNN",
+      "provider": "SpeechBrain",
+      "architecture": "ECAPA-TDNN",
+      "pretrained_name": "speechbrain/spkrec-ecapa-voxceleb",
+      "classifier": "linear_svm",
+      "embedding_tag": "full",
+      "evaluation_protocol": {
+        "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+        "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+        "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d"
+      },
+      "protocol": {
+        "samples": 2185,
+        "speakers": 31,
+        "fold_values": [
+          1,
+          2
+        ],
+        "embedding_dimension": 192,
+        "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+      },
+      "performance": {
+        "accuracy": {
+          "n": 2,
+          "mean": 0.9840038256367958,
+          "std": 0.0014551058905192134,
+          "ci95_half_width": 0.01307360799921885,
+          "ci95_lower": 0.9709302176375769,
+          "ci95_upper": 0.9970774336360146,
+          "minimum": 0.9829749103942652,
+          "maximum": 0.9850327408793265
+        },
+        "f1_macro": {
+          "n": 2,
+          "mean": 0.9851613671495005,
+          "std": 0.0029924128271261686,
+          "ci95_half_width": 0.026885763110836094,
+          "ci95_lower": 0.9582756040386644,
+          "ci95_upper": 1.0120471302603367,
+          "minimum": 0.9830454117473301,
+          "maximum": 0.9872773225516711
+        },
+        "fold_values": {
+          "accuracy": [
+            0.9850327408793265,
+            0.9829749103942652
+          ],
+          "f1_macro": [
+            0.9872773225516711,
+            0.9830454117473301
+          ]
+        }
+      },
+      "embedding_extraction_timing_ms": {
+        "cold_first_success": 2407.100399956107,
+        "warm_success": {
+          "minimum": 54.559500073082745,
+          "median": 134.42530005704612,
+          "mean": 157.1464143600987,
+          "p95": 317.5530000589788,
+          "maximum": 622.5530999945477,
+          "total": 424609.6116009867
+        },
+        "coverage_percent": 100.0
+      },
+      "sources": {
+        "run_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\linear_svm\\full\\run_metadata.json",
+        "aggregate_metrics": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\linear_svm\\full\\aggregate_metrics.json",
+        "embedding_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\speechbrain_ecapa\\full\\metadata.json"
+      }
+    },
+    {
+      "accuracy_rank": 2,
+      "model_id": "speechbrain_xvector",
+      "display_name": "SpeechBrain — X-Vector",
+      "provider": "SpeechBrain",
+      "architecture": "X-Vector TDNN",
+      "pretrained_name": "speechbrain/spkrec-xvect-voxceleb",
+      "classifier": "linear_svm",
+      "embedding_tag": "full",
+      "evaluation_protocol": {
+        "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+        "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+        "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d"
+      },
+      "protocol": {
+        "samples": 2185,
+        "speakers": 31,
+        "fold_values": [
+          1,
+          2
+        ],
+        "embedding_dimension": 512,
+        "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+      },
+      "performance": {
+        "accuracy": {
+          "n": 2,
+          "mean": 0.9565458288488555,
+          "std": 0.028505850386407558,
+          "ci95_half_width": 0.2561149096189112,
+          "ci95_lower": 0.7004309192299443,
+          "ci95_upper": 1.2126607384677668,
+          "minimum": 0.9363891487371375,
+          "maximum": 0.9767025089605734
+        },
+        "f1_macro": {
+          "n": 2,
+          "mean": 0.9549414150571192,
+          "std": 0.029466672785626872,
+          "ci95_half_width": 0.26474755655279175,
+          "ci95_lower": 0.6901938585043275,
+          "ci95_upper": 1.2196889716099109,
+          "minimum": 0.9341053309113974,
+          "maximum": 0.9757774992028411
+        },
+        "fold_values": {
+          "accuracy": [
+            0.9363891487371375,
+            0.9767025089605734
+          ],
+          "f1_macro": [
+            0.9341053309113974,
+            0.9757774992028411
+          ]
+        }
+      },
+      "embedding_extraction_timing_ms": {
+        "cold_first_success": 286.90019994974136,
+        "warm_success": {
+          "minimum": 11.423900024965405,
+          "median": 30.53729998646304,
+          "mean": 35.27852820264738,
+          "p95": 69.99400001950562,
+          "maximum": 132.11889995727688,
+          "total": 95322.58320355322
+        },
+        "coverage_percent": 100.0
+      },
+      "sources": {
+        "run_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_xvector\\linear_svm\\full\\run_metadata.json",
+        "aggregate_metrics": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_xvector\\linear_svm\\full\\aggregate_metrics.json",
+        "embedding_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\speechbrain_xvector\\full\\metadata.json"
+      }
+    },
+    {
+      "accuracy_rank": 3,
+      "model_id": "unispeech_sat_base_plus_sv",
+      "display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+      "provider": "Microsoft / Hugging Face",
+      "architecture": "UniSpeech-SAT + X-Vector Head",
+      "pretrained_name": "microsoft/unispeech-sat-base-plus-sv",
+      "classifier": "linear_svm",
+      "embedding_tag": "full",
+      "evaluation_protocol": {
+        "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+        "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+        "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d"
+      },
+      "protocol": {
+        "samples": 2185,
+        "speakers": 31,
+        "fold_values": [
+          1,
+          2
+        ],
+        "embedding_dimension": 512,
+        "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+      },
+      "performance": {
+        "accuracy": {
+          "n": 2,
+          "mean": 0.924612574643505,
+          "std": 0.021710416971009346,
+          "ci95_half_width": 0.19506036146777367,
+          "ci95_lower": 0.7295522131757313,
+          "ci95_upper": 1.1196729361112787,
+          "minimum": 0.9092609915809168,
+          "maximum": 0.9399641577060932
+        },
+        "f1_macro": {
+          "n": 2,
+          "mean": 0.9230499845933846,
+          "std": 0.022532899188338743,
+          "ci95_half_width": 0.20245007115540062,
+          "ci95_lower": 0.720599913437984,
+          "ci95_upper": 1.1255000557487853,
+          "minimum": 0.9071168187775174,
+          "maximum": 0.9389831504092517
+        },
+        "fold_values": {
+          "accuracy": [
+            0.9092609915809168,
+            0.9399641577060932
+          ],
+          "f1_macro": [
+            0.9071168187775174,
+            0.9389831504092517
+          ]
+        }
+      },
+      "embedding_extraction_timing_ms": {
+        "cold_first_success": 2924.2455000057817,
+        "warm_success": {
+          "minimum": 108.99009997956455,
+          "median": 387.4370999983512,
+          "mean": 473.55060040661937,
+          "p95": 1068.8983999425545,
+          "maximum": 2273.3143999939784,
+          "total": 1279533.7222986855
+        },
+        "coverage_percent": 100.0
+      },
+      "sources": {
+        "run_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\unispeech_sat_base_plus_sv\\linear_svm\\full\\run_metadata.json",
+        "aggregate_metrics": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\unispeech_sat_base_plus_sv\\linear_svm\\full\\aggregate_metrics.json",
+        "embedding_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\unispeech_sat_base_plus_sv\\full\\metadata.json"
+      }
+    },
+    {
+      "accuracy_rank": 4,
+      "model_id": "wavlm_base_plus_sv",
+      "display_name": "Microsoft — WavLM Base Plus SV",
+      "provider": "Microsoft",
+      "architecture": "WavLM Transformer",
+      "pretrained_name": "microsoft/wavlm-base-plus-sv",
+      "classifier": "linear_svm",
+      "embedding_tag": "full",
+      "evaluation_protocol": {
+        "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+        "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+        "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d"
+      },
+      "protocol": {
+        "samples": 2185,
+        "speakers": 31,
+        "fold_values": [
+          1,
+          2
+        ],
+        "embedding_dimension": 512,
+        "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+      },
+      "performance": {
+        "accuracy": {
+          "n": 2,
+          "mean": 0.9219244026004942,
+          "std": 0.017908767609791352,
+          "ci95_half_width": 0.16090389641401026,
+          "ci95_lower": 0.761020506186484,
+          "ci95_upper": 1.0828282990145044,
+          "minimum": 0.9092609915809168,
+          "maximum": 0.9345878136200717
+        },
+        "f1_macro": {
+          "n": 2,
+          "mean": 0.9205323731796946,
+          "std": 0.015110090323769951,
+          "ci95_half_width": 0.1357587781156397,
+          "ci95_lower": 0.7847735950640549,
+          "ci95_upper": 1.0562911512953344,
+          "minimum": 0.9098479258474156,
+          "maximum": 0.9312168205119735
+        },
+        "fold_values": {
+          "accuracy": [
+            0.9092609915809168,
+            0.9345878136200717
+          ],
+          "f1_macro": [
+            0.9098479258474156,
+            0.9312168205119735
+          ]
+        }
+      },
+      "embedding_extraction_timing_ms": {
+        "cold_first_success": 11378.363900003023,
+        "warm_success": {
+          "minimum": 159.47990003041923,
+          "median": 444.1835500183515,
+          "mean": 543.1812792390152,
+          "p95": 1230.0792000023648,
+          "maximum": 2904.4470000080764,
+          "total": 1467675.816503819
+        },
+        "coverage_percent": 100.0
+      },
+      "sources": {
+        "run_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\wavlm_base_plus_sv\\linear_svm\\full\\run_metadata.json",
+        "aggregate_metrics": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\wavlm_base_plus_sv\\linear_svm\\full\\aggregate_metrics.json",
+        "embedding_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\wavlm_base_plus_sv\\full\\metadata.json"
+      }
+    }
+  ],
+  "artifacts": {
+    "csv": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\summary\\linear_svm\\full\\model_comparison.csv",
+    "accuracy_png": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\summary\\linear_svm\\full\\accuracy_bar.png",
+    "accuracy_pdf": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\summary\\linear_svm\\full\\accuracy_bar.pdf",
+    "macro_f1_png": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\summary\\linear_svm\\full\\macro_f1_bar.png",
+    "macro_f1_pdf": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\summary\\linear_svm\\full\\macro_f1_bar.pdf",
+    "warm_timing_png": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\summary\\linear_svm\\full\\warm_extraction_timing_bar.png",
+    "warm_timing_pdf": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\summary\\linear_svm\\full\\warm_extraction_timing_bar.pdf"
+  }
+}

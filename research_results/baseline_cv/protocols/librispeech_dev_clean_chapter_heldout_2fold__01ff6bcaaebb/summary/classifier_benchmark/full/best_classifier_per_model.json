@@ -1,0 +1,67 @@
+{
+  "protocol_label": "Strict chapter-held-out closed-set speaker-identification protocol",
+  "status": "complete",
+  "selection_rule": "highest mean accuracy; ties broken by mean macro-F1, then deterministic classifier order",
+  "rows": [
+    {
+      "model_order": 1,
+      "model_id": "speechbrain_ecapa",
+      "model_display_name": "ECAPA-TDNN",
+      "best_classifier_id": "cosine_centroid",
+      "best_classifier_display_name": "Cosine Centroid",
+      "accuracy_mean": 0.9900448783071977,
+      "accuracy_mean_percent": 99.00448783071977,
+      "accuracy_fold_sd": 0.007464011600532926,
+      "f1_macro_mean": 0.989829053761399,
+      "f1_macro_mean_percent": 98.9829053761399,
+      "classifier_fit_seconds_mean": 0.002225249947514385,
+      "prediction_ms_per_sample_mean": 0.0014118598115266529,
+      "selection_rule": "highest mean accuracy; ties broken by mean macro-F1, then deterministic classifier order"
+    },
+    {
+      "model_order": 2,
+      "model_id": "speechbrain_xvector",
+      "model_display_name": "X-Vector",
+      "best_classifier_id": "logistic_regression",
+      "best_classifier_display_name": "Logistic Regression",
+      "accuracy_mean": 0.9640294584091922,
+      "accuracy_mean_percent": 96.40294584091922,
+      "accuracy_fold_sd": 0.0179223999664031,
+      "f1_macro_mean": 0.9628784539629061,
+      "f1_macro_mean_percent": 96.2878453962906,
+      "classifier_fit_seconds_mean": 0.049061300000175834,
+      "prediction_ms_per_sample_mean": 0.0015756614543115698,
+      "selection_rule": "highest mean accuracy; ties broken by mean macro-F1, then deterministic classifier order"
+    },
+    {
+      "model_order": 3,
+      "model_id": "wavlm_base_plus_sv",
+      "model_display_name": "WavLM",
+      "best_classifier_id": "logistic_regression",
+      "best_classifier_display_name": "Logistic Regression",
+      "accuracy_mean": 0.9319386188143544,
+      "accuracy_mean_percent": 93.19386188143544,
+      "accuracy_fold_sd": 0.021487557575964416,
+      "f1_macro_mean": 0.9297029610596508,
+      "f1_macro_mean_percent": 92.97029610596508,
+      "classifier_fit_seconds_mean": 0.10611254995455965,
+      "prediction_ms_per_sample_mean": 0.0014851911809749363,
+      "selection_rule": "highest mean accuracy; ties broken by mean macro-F1, then deterministic classifier order"
+    },
+    {
+      "model_order": 4,
+      "model_id": "unispeech_sat_base_plus_sv",
+      "model_display_name": "UniSpeech-SAT",
+      "best_classifier_id": "logistic_regression",
+      "best_classifier_display_name": "Logistic Regression",
+      "accuracy_mean": 0.9356804335945228,
+      "accuracy_mean_percent": 93.56804335945228,
+      "accuracy_fold_sd": 0.016195832365962184,
+      "f1_macro_mean": 0.9349293990851246,
+      "f1_macro_mean_percent": 93.49293990851247,
+      "classifier_fit_seconds_mean": 0.1272840999881737,
+      "prediction_ms_per_sample_mean": 0.0018090878055627981,
+      "selection_rule": "highest mean accuracy; ties broken by mean macro-F1, then deterministic classifier order"
+    }
+  ]
+}

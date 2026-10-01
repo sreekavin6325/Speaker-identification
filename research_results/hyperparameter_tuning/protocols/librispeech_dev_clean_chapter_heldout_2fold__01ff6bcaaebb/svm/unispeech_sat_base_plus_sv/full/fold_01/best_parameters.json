@@ -1,0 +1,22 @@
+{
+  "outer_fold": 1,
+  "selection_metric": "f1_macro",
+  "selection_scorer": {
+    "function": "sklearn.metrics.f1_score",
+    "average": "macro",
+    "pos_label": null,
+    "zero_division": 0
+  },
+  "best_index": 0,
+  "best_rank": 1,
+  "best_inner_macro_f1": 0.9891572696528912,
+  "best_parameters": {
+    "kernel": "linear",
+    "C": 0.01,
+    "gamma": null
+  },
+  "raw_pipeline_parameters": {
+    "svc__C": 0.01,
+    "svc__kernel": "linear"
+  }
+}

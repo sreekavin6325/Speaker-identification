@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "experiment": "robustness_embedding_extraction",
+  "completed_at_utc": "2026-08-05T04:36:19+00:00",
+  "model_id": "unispeech_sat_base_plus_sv",
+  "model": {
+    "display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+    "provider": "Microsoft / Hugging Face",
+    "architecture": "UniSpeech-SAT + X-Vector Head",
+    "pretrained_name": "microsoft/unispeech-sat-base-plus-sv"
+  },
+  "condition": "noise_white_0db",
+  "condition_definition": {
+    "family": "additive_white_noise",
+    "snr_db": 0.0
+  },
+  "seed": 42,
+  "tag": "smoke",
+  "protocol": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_2fold_protocol.csv",
+    "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+    "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d",
+    "full_row_count": 2185,
+    "selected_row_count": 2,
+    "fold_values": [
+      1,
+      2
+    ],
+    "speaker_count": 31,
+    "source_group_count": 88,
+    "source_group_disjoint": true,
+    "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+    "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+  },
+  "requested_rows": 2,
+  "successful_rows": 2,
+  "failed_rows": 0,
+  "coverage_percent": 100.0,
+  "embedding_dimension": 512,
+  "number_of_speakers": 1,
+  "number_of_folds": 1,
+  "timing_ms": {
+    "minimum": 414.8307,
+    "median": 1847.57165,
+    "mean": 1847.57165,
+    "p95": 3280.3126,
+    "maximum": 3280.3126,
+    "total": 3695.1433
+  },
+  "wall_seconds": 3.75201970001217,
+  "failure_types": {},
+  "artifact_sha256": {
+    "X.npy": "24860ce5ef2ac3b325ff1ad0b4b53dd23de95d305533e4461597b2cef734d924",
+    "y.npy": "faa0576898b2221938f6c26d5ca998f67e970f19f13cdf6ab02006b92c846069",
+    "clip_ids.npy": "a589a5ad9210275095c2cf7c016ef33feaf9fbc54767879be8e47cecc9e38c4e",
+    "folds.npy": "d91d48189d62ecda6680d26b1d16c3548b65fd4bf21fecd6b90a7c1a30afcd14"
+  },
+  "derived_audio_retained": false,
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\unispeech_sat_base_plus_sv\\noise_white_0db\\smoke"
+}

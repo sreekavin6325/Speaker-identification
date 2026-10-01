@@ -1,0 +1,808 @@
+File: processed_dataset\Benjamin_Netanyau\1107.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1111.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1173.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1177.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1248.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1273.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1288.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1295.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1311.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1420.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\1472.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\152.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\158.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\21.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\260.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\278.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\305.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\311.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\313.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\318.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\32.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\334.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\337.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\36.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\423.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\443.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\447.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\456.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\459.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\482.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\504.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\508.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\52.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\532.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\544.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\56.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\583.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\6.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\606.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\679.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\717.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\750.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\761.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\775.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\783.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\798.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\801.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\819.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\825.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\830.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\854.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\867.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\875.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\877.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\892.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\901.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\912.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\930.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\942.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\963.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\985.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Benjamin_Netanyau\988.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1074.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1077.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1080.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1091.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1103.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1172.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1183.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1186.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1207.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1214.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1223.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1240.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\125.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1250.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1276.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1306.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1314.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1332.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1333.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1341.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1348.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1394.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1466.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\1473.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\16.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\189.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\2.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\21.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\216.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\226.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\232.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\24.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\250.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\263.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\298.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\305.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\310.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\33.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\344.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\358.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\381.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\395.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\464.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\487.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\503.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\506.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\511.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\521.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\526.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\570.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\592.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\594.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\624.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\644.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\682.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\693.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\706.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\71.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\745.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\750.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\752.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\762.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\780.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\788.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\79.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\791.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\825.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\83.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\838.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\841.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\846.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\871.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\873.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\906.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\910.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\919.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\940.wav
+Error: Embedding contains invalid values.
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\951.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\961.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\969.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Jens_Stoltenberg\988.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\100.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1003.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1027.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1033.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1079.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1163.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\1237.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\142.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\147.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\159.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\187.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (2). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\226.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\283.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\355.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\374.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\410.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\417.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\450.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\500.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\542.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\571.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\587.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\611.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\620.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (1). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\68.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\861.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\895.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (4). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\947.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (3). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------
+File: processed_dataset\Magaret_Tarcher\956.wav
+Error: WavLM embedding extraction failed.
+
+Calculated padded input size per channel: (6). Kernel size: (7). Kernel size can't be greater than actual input size
+----------------------------------------------------------------------

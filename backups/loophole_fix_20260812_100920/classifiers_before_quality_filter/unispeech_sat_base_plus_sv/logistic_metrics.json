@@ -1,0 +1,27 @@
+{
+    "model_id": "unispeech_sat_base_plus_sv",
+    "display_name": "Microsoft \u2014 UniSpeech-SAT Base Plus SV",
+    "classifier_id": "logistic_regression",
+    "classifier_name": "Logistic Regression",
+    "embedding_dimension": 512,
+    "number_of_samples": 7084,
+    "number_of_speakers": 5,
+    "training_samples": 5667,
+    "testing_samples": 1417,
+    "c_value": 1.0,
+    "max_iter": 5000,
+    "training_accuracy": 0.9661196400211752,
+    "testing_accuracy": 0.8800282286520819,
+    "precision_weighted": 0.8821579643033339,
+    "recall_weighted": 0.8800282286520819,
+    "f1_weighted": 0.8804745194802664,
+    "f1_macro": 0.8788973916921596,
+    "training_seconds": 2.2357439000043087,
+    "speakers": [
+        "Benjamin_Netanyau",
+        "Jens_Stoltenberg",
+        "Julia_Gillard",
+        "Magaret_Tarcher",
+        "Nelson_Mandela"
+    ]
+}

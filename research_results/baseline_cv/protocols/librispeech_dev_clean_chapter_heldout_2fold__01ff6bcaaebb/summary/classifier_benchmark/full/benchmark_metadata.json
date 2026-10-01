@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-30T06:11:09+00:00",
+  "status": "complete",
+  "publication_ready_complete_grid": true,
+  "protocol_label": "Strict chapter-held-out closed-set speaker-identification protocol",
+  "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+  "protocol_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_2fold_protocol.csv",
+  "protocol_sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+  "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d",
+  "models": [
+    "speechbrain_ecapa",
+    "speechbrain_xvector",
+    "wavlm_base_plus_sv",
+    "unispeech_sat_base_plus_sv"
+  ],
+  "required_classifiers": [
+    "linear_svm",
+    "rbf_svm",
+    "logistic_regression",
+    "knn",
+    "random_forest",
+    "decision_tree",
+    "xgboost"
+  ],
+  "included_classifiers": [
+    "linear_svm",
+    "rbf_svm",
+    "logistic_regression",
+    "knn",
+    "random_forest",
+    "decision_tree",
+    "xgboost",
+    "cosine_centroid"
+  ],
+  "complete_runs": 32,
+  "expected_runs": 32,
+  "missing_runs": [],
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\summary\\classifier_benchmark\\full"
+}

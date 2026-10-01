@@ -1,0 +1,138 @@
+{
+  "schema_version": 2,
+  "experiment": "external_protocol_speaker_identification_sensitivity",
+  "completed_at_utc": "2026-07-30T06:07:20+00:00",
+  "model_id": "speechbrain_xvector",
+  "model": {
+    "display_name": "SpeechBrain — X-Vector",
+    "provider": "SpeechBrain",
+    "architecture": "X-Vector TDNN",
+    "pretrained_name": "speechbrain/spkrec-xvect-voxceleb",
+    "source": null
+  },
+  "classifier": {
+    "name": "linear_svm",
+    "standard_scaler": {
+      "copy": true,
+      "with_mean": true,
+      "with_std": true,
+      "fit_partition": "training_fold_only"
+    },
+    "hyperparameters": {
+      "C": 1.0,
+      "break_ties": false,
+      "cache_size": 2048,
+      "class_weight": null,
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": "scale",
+      "kernel": "linear",
+      "max_iter": -1,
+      "probability": false,
+      "random_state": 42,
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    },
+    "c": 1.0,
+    "gamma": "scale",
+    "max_iter": 5000,
+    "seed": 42
+  },
+  "protocol": {
+    "mode": "external_protocol_file",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_2fold_protocol.csv",
+    "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+    "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d",
+    "row_count": 2185,
+    "fold_source": "external protocol CSV",
+    "fold_values": [
+      1,
+      2
+    ],
+    "fold_counts": {
+      "1": 1069,
+      "2": 1116
+    },
+    "number_of_folds": 2,
+    "samples": 2185,
+    "speakers": 31,
+    "source_groups": 88,
+    "embedding_dimension": 512,
+    "selection_policy": "exact_protocol_clip_ids",
+    "artifact_persisted_folds_overridden": true,
+    "source_group_disjoint_enforced": true,
+    "each_sample_tested_once": true,
+    "exact_clip_leakage_detected": false,
+    "source_group_overlap_is_reported_not_blocked": false,
+    "available_artifact_samples": 2703,
+    "excluded_artifact_samples": 518
+  },
+  "embedding_artifacts": {
+    "directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\speechbrain_xvector\\full",
+    "source_metadata": {
+      "schema_version": 1,
+      "experiment": "manifest_embedding_extraction",
+      "tag": "full",
+      "model_id": "speechbrain_xvector",
+      "display_name": "SpeechBrain — X-Vector",
+      "provider": "SpeechBrain",
+      "architecture": "X-Vector TDNN",
+      "pretrained_name": "speechbrain/spkrec-xvect-voxceleb",
+      "device": "cpu",
+      "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+      "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+      "requested_rows": 2703,
+      "processed_rows": 2703,
+      "successful_rows": 2703,
+      "failed_rows": 0,
+      "coverage_percent": 100.0,
+      "embedding_dimension": 512,
+      "number_of_speakers": 40,
+      "number_of_folds": 5,
+      "cold_first_success_ms": 286.90019994974136,
+      "all_success_timing_ms": {
+        "minimum": 11.423900024965405,
+        "median": 30.545799992978573,
+        "mean": 35.37161798131815,
+        "p95": 70.11239998973906,
+        "maximum": 286.90019994974136,
+        "total": 95609.48340350296
+      },
+      "warm_success_timing_ms": {
+        "minimum": 11.423900024965405,
+        "median": 30.53729998646304,
+        "mean": 35.27852820264738,
+        "p95": 69.99400001950562,
+        "maximum": 132.11889995727688,
+        "total": 95322.58320355322
+      },
+      "wall_seconds": 108.95635970006697,
+      "failure_types": {},
+      "completed_at_utc": "2026-07-30T04:54:46+00:00"
+    },
+    "sha256": {
+      "X.npy": "aa3374cb03318c87b1b2236d8596a8eca9ed8e87c22728243d384a321ee3dd14",
+      "y.npy": "2991812be9ca01e249fd5ea685b4ffdb738780c74f392a43c06616e1b519b44d",
+      "clip_ids.npy": "31fa152698a0eee897f56614ca268747b69295aafae4599484c89ed361efed35",
+      "folds.npy": "54cbfe144efdcc1708c2f5e9f8a1d8c398089a4f576b9102fb69c11cbd72434e",
+      "metadata.json": "a5528729b60bcd5173627dce60b66969c95bc9226c8b5b461e487578e5c3e572"
+    }
+  },
+  "manifest": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+    "sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+    "row_count": 2703
+  },
+  "software": {
+    "python": "3.12.0",
+    "numpy": "2.0.2",
+    "scikit_learn": "1.7.1",
+    "xgboost": "3.3.0",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "wall_seconds": 0.8393561000702903,
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_xvector\\linear_svm\\full"
+}

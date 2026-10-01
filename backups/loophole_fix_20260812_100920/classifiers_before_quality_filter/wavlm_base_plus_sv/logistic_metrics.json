@@ -1,0 +1,27 @@
+{
+    "model_id": "wavlm_base_plus_sv",
+    "display_name": "Microsoft \u2014 WavLM Base Plus SV",
+    "classifier_id": "logistic_regression",
+    "classifier_name": "Logistic Regression",
+    "embedding_dimension": 512,
+    "number_of_samples": 7329,
+    "number_of_speakers": 5,
+    "training_samples": 5863,
+    "testing_samples": 1466,
+    "c_value": 1.0,
+    "max_iter": 5000,
+    "training_accuracy": 0.9749275115128774,
+    "testing_accuracy": 0.8649386084583902,
+    "precision_weighted": 0.8654715583813224,
+    "recall_weighted": 0.8649386084583902,
+    "f1_weighted": 0.8651421713899556,
+    "f1_macro": 0.8645854306269936,
+    "training_seconds": 2.329999100009445,
+    "speakers": [
+        "Benjamin_Netanyau",
+        "Jens_Stoltenberg",
+        "Julia_Gillard",
+        "Magaret_Tarcher",
+        "Nelson_Mandela"
+    ]
+}

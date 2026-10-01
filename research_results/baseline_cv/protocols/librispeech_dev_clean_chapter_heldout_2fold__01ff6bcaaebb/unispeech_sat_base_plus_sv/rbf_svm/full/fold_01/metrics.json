@@ -1,0 +1,33 @@
+{
+  "fold": 1,
+  "train_samples": 1116,
+  "test_samples": 1069,
+  "train_speakers": 31,
+  "test_speakers": 31,
+  "metrics": {
+    "accuracy": 0.9045837231057062,
+    "balanced_accuracy": 0.9238638519452375,
+    "precision_macro": 0.9105056481787519,
+    "recall_macro": 0.9238638519452375,
+    "f1_macro": 0.8995882664736873,
+    "precision_weighted": 0.9251185884808796,
+    "recall_weighted": 0.9045837231057062,
+    "f1_weighted": 0.8908763056010156
+  },
+  "timing": {
+    "scaler_fit_seconds": 0.0050760000012815,
+    "scaler_transform_seconds": 0.007001099991612136,
+    "classifier_fit_seconds": 0.22641420003492385,
+    "prediction_seconds": 0.2224796999944374,
+    "prediction_ms_per_sample": 0.2081194574316533,
+    "fold_total_seconds": 0.7372263000579551
+  },
+  "score_type": "maximum_decision_score",
+  "leakage_audit": {
+    "clip_overlap_count": 0,
+    "source_group_overlap_count": 0,
+    "test_only_speaker_count": 0,
+    "scaler_fit_samples": 1116,
+    "scaler_fit_partition": "train_only"
+  }
+}

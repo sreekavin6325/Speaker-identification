@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "rows": [
+    {
+      "scope": "model",
+      "model_order": 1,
+      "model_id": "speechbrain_ecapa",
+      "model_display_name": "ECAPA-TDNN",
+      "kernel": "linear",
+      "C": 0.01,
+      "gamma": "not_applicable",
+      "selection_count": 2,
+      "available_outer_folds": 2,
+      "selection_percent": 100.0
+    },
+    {
+      "scope": "model",
+      "model_order": 2,
+      "model_id": "speechbrain_xvector",
+      "model_display_name": "X-Vector",
+      "kernel": "linear",
+      "C": 0.01,
+      "gamma": "not_applicable",
+      "selection_count": 1,
+      "available_outer_folds": 2,
+      "selection_percent": 50.0
+    },
+    {
+      "scope": "model",
+      "model_order": 2,
+      "model_id": "speechbrain_xvector",
+      "model_display_name": "X-Vector",
+      "kernel": "rbf",
+      "C": 10.0,
+      "gamma": "0.0001",
+      "selection_count": 1,
+      "available_outer_folds": 2,
+      "selection_percent": 50.0
+    },
+    {
+      "scope": "model",
+      "model_order": 3,
+      "model_id": "wavlm_base_plus_sv",
+      "model_display_name": "WavLM",
+      "kernel": "rbf",
+      "C": 1.0,
+      "gamma": "scale",
+      "selection_count": 1,
+      "available_outer_folds": 2,
+      "selection_percent": 50.0
+    },
+    {
+      "scope": "model",
+      "model_order": 3,
+      "model_id": "wavlm_base_plus_sv",
+      "model_display_name": "WavLM",
+      "kernel": "rbf",
+      "C": 10.0,
+      "gamma": "0.001",
+      "selection_count": 1,
+      "available_outer_folds": 2,
+      "selection_percent": 50.0
+    },
+    {
+      "scope": "model",
+      "model_order": 4,
+      "model_id": "unispeech_sat_base_plus_sv",
+      "model_display_name": "UniSpeech-SAT",
+      "kernel": "linear",
+      "C": 0.01,
+      "gamma": "not_applicable",
+      "selection_count": 1,
+      "available_outer_folds": 2,
+      "selection_percent": 50.0
+    },
+    {
+      "scope": "model",
+      "model_order": 4,
+      "model_id": "unispeech_sat_base_plus_sv",
+      "model_display_name": "UniSpeech-SAT",
+      "kernel": "rbf",
+      "C": 100.0,
+      "gamma": "0.0001",
+      "selection_count": 1,
+      "available_outer_folds": 2,
+      "selection_percent": 50.0
+    },
+    {
+      "scope": "all_models",
+      "model_order": "",
+      "model_id": "ALL",
+      "model_display_name": "All four models",
+      "kernel": "linear",
+      "C": 0.01,
+      "gamma": "not_applicable",
+      "selection_count": 4,
+      "available_outer_folds": 8,
+      "selection_percent": 50.0
+    },
+    {
+      "scope": "all_models",
+      "model_order": "",
+      "model_id": "ALL",
+      "model_display_name": "All four models",
+      "kernel": "rbf",
+      "C": 1.0,
+      "gamma": "scale",
+      "selection_count": 1,
+      "available_outer_folds": 8,
+      "selection_percent": 12.5
+    },
+    {
+      "scope": "all_models",
+      "model_order": "",
+      "model_id": "ALL",
+      "model_display_name": "All four models",
+      "kernel": "rbf",
+      "C": 10.0,
+      "gamma": "0.0001",
+      "selection_count": 1,
+      "available_outer_folds": 8,
+      "selection_percent": 12.5
+    },
+    {
+      "scope": "all_models",
+      "model_order": "",
+      "model_id": "ALL",
+      "model_display_name": "All four models",
+      "kernel": "rbf",
+      "C": 10.0,
+      "gamma": "0.001",
+      "selection_count": 1,
+      "available_outer_folds": 8,
+      "selection_percent": 12.5
+    },
+    {
+      "scope": "all_models",
+      "model_order": "",
+      "model_id": "ALL",
+      "model_display_name": "All four models",
+      "kernel": "rbf",
+      "C": 100.0,
+      "gamma": "0.0001",
+      "selection_count": 1,
+      "available_outer_folds": 8,
+      "selection_percent": 12.5
+    }
+  ],
+  "unit": "outer-fold selections"
+}

@@ -1,0 +1,323 @@
+Starting: wavlm_base_plus_sv / short_0p5s
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Condition   : short_0p5s
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\short_0p5s\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\short_0p5s\full
+========================================================================
+Starting: wavlm_base_plus_sv / short_1s
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Condition   : short_1s
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\short_1s\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\short_1s\full
+========================================================================
+Starting: wavlm_base_plus_sv / short_2s
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Condition   : short_2s
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\short_2s\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\short_2s\full
+========================================================================
+Starting: wavlm_base_plus_sv / short_3s
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Condition   : short_3s
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\short_3s\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\short_3s\full
+========================================================================
+Starting: wavlm_base_plus_sv / noise_white_20db
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Condition   : noise_white_20db
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\noise_white_20db\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\noise_white_20db\full
+========================================================================
+Starting: wavlm_base_plus_sv / noise_white_10db
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Condition   : noise_white_10db
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\noise_white_10db\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\noise_white_10db\full
+========================================================================
+Starting: wavlm_base_plus_sv / noise_white_0db
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Condition   : noise_white_0db
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\noise_white_0db\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\noise_white_0db\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / short_0p5s
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Condition   : short_0p5s
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\short_0p5s\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\short_0p5s\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / short_1s
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Condition   : short_1s
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\short_1s\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\short_1s\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / short_2s
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Condition   : short_2s
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\short_2s\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\short_2s\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / short_3s
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Condition   : short_3s
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\short_3s\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\short_3s\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / noise_white_20db
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Condition   : noise_white_20db
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\noise_white_20db\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\noise_white_20db\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / noise_white_10db
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Condition   : noise_white_10db
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\noise_white_10db\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\noise_white_10db\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / noise_white_0db
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Condition   : noise_white_0db
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\noise_white_0db\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\noise_white_0db\full
+========================================================================
+Worker completed models: wavlm_base_plus_sv,unispeech_sat_base_plus_sv

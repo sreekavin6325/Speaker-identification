@@ -1,0 +1,79 @@
+[
+  {
+    "model_id": "wavlm_base_plus_sv",
+    "model_display_name": "Microsoft — WavLM Base Plus SV",
+    "effect_type": "main",
+    "effect_name": "denoise",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 0.004642796671260108,
+    "accuracy_effect_fold_sd": 0.0043482772257929,
+    "balanced_accuracy_effect_mean": 0.004076022233836574,
+    "f1_macro_effect_mean": 0.006218046887839612
+  },
+  {
+    "model_id": "wavlm_base_plus_sv",
+    "model_display_name": "Microsoft — WavLM Base Plus SV",
+    "effect_type": "main",
+    "effect_name": "normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 0.0032396161286969427,
+    "accuracy_effect_fold_sd": 0.002363880272042035,
+    "balanced_accuracy_effect_mean": 0.003897992648307147,
+    "f1_macro_effect_mean": 0.0036294037038770433
+  },
+  {
+    "model_id": "wavlm_base_plus_sv",
+    "model_display_name": "Microsoft — WavLM Base Plus SV",
+    "effect_type": "main",
+    "effect_name": "trim",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.005391117716285976,
+    "accuracy_effect_fold_sd": 0.006631993313845905,
+    "balanced_accuracy_effect_mean": -0.005318052415779317,
+    "f1_macro_effect_mean": -0.004247046036660984
+  },
+  {
+    "model_id": "wavlm_base_plus_sv",
+    "model_display_name": "Microsoft — WavLM Base Plus SV",
+    "effect_type": "three_way_interaction",
+    "effect_name": "trim:denoise:normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.004514758542301656,
+    "accuracy_effect_fold_sd": 0.004069702981986619,
+    "balanced_accuracy_effect_mean": -0.004254399132247122,
+    "f1_macro_effect_mean": -0.0047214511746135335
+  },
+  {
+    "model_id": "wavlm_base_plus_sv",
+    "model_display_name": "Microsoft — WavLM Base Plus SV",
+    "effect_type": "two_way_interaction",
+    "effect_name": "denoise:normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.0011249962280093229,
+    "accuracy_effect_fold_sd": 0.0012602520976443719,
+    "balanced_accuracy_effect_mean": -0.00145177551338177,
+    "f1_macro_effect_mean": -0.0012138481074087104
+  },
+  {
+    "model_id": "wavlm_base_plus_sv",
+    "model_display_name": "Microsoft — WavLM Base Plus SV",
+    "effect_type": "two_way_interaction",
+    "effect_name": "trim:denoise",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.0016321194229022007,
+    "accuracy_effect_fold_sd": 0.0019913613098458778,
+    "balanced_accuracy_effect_mean": -0.0024663752384459503,
+    "f1_macro_effect_mean": -0.002927341923277871
+  },
+  {
+    "model_id": "wavlm_base_plus_sv",
+    "model_display_name": "Microsoft — WavLM Base Plus SV",
+    "effect_type": "two_way_interaction",
+    "effect_name": "trim:normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.0025281767705723768,
+    "accuracy_effect_fold_sd": 0.000724144856106651,
+    "balanced_accuracy_effect_mean": -0.0026110237522889435,
+    "f1_macro_effect_mean": -0.0025488941774716722
+  }
+]

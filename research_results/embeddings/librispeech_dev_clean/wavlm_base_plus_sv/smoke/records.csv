@@ -1,0 +1,6 @@
+manifest_index,clip_id,speaker_id,speaker_label,chapter_id,source_group,fold,absolute_path,status,embedding_index,extraction_time_ms,embedding_l2_norm,error_type,error_message
+0,1272-128104-0000,1272,LibriSpeech_1272,128104,1272/128104,4,C:\Users\addld\Desktop\speaker_identification_01\research_datasets\LibriSpeech\dev-clean\1272\128104\1272-128104-0000.flac,success,0,18773.1707,1.0,,
+1,1272-128104-0001,1272,LibriSpeech_1272,128104,1272/128104,1,C:\Users\addld\Desktop\speaker_identification_01\research_datasets\LibriSpeech\dev-clean\1272\128104\1272-128104-0001.flac,success,1,366.2846,1.0,,
+2,1272-128104-0002,1272,LibriSpeech_1272,128104,1272/128104,4,C:\Users\addld\Desktop\speaker_identification_01\research_datasets\LibriSpeech\dev-clean\1272\128104\1272-128104-0002.flac,success,2,891.4771,1.0,,
+3,1272-128104-0003,1272,LibriSpeech_1272,128104,1272/128104,2,C:\Users\addld\Desktop\speaker_identification_01\research_datasets\LibriSpeech\dev-clean\1272\128104\1272-128104-0003.flac,success,3,701.6523,0.9999999403953552,,
+4,1272-128104-0004,1272,LibriSpeech_1272,128104,1272/128104,5,C:\Users\addld\Desktop\speaker_identification_01\research_datasets\LibriSpeech\dev-clean\1272\128104\1272-128104-0004.flac,success,4,2433.6444,0.9999998807907104,,

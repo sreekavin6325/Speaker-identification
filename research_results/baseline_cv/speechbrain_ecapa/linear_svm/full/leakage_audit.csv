@@ -1,0 +1,6 @@
+fold,train_samples,test_samples,clip_overlap_count,source_group_overlap_count,test_only_speaker_count,scaler_fit_samples,scaler_fit_partition
+1,2163,540,0,95,0,2163,train_only
+2,2161,542,0,96,0,2161,train_only
+3,2160,543,0,96,0,2160,train_only
+4,2161,542,0,96,0,2161,train_only
+5,2167,536,0,94,0,2167,train_only

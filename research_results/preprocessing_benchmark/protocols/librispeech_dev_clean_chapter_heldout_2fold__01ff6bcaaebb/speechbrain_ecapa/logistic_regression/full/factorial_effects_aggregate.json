@@ -1,0 +1,79 @@
+[
+  {
+    "model_id": "speechbrain_ecapa",
+    "model_display_name": "SpeechBrain — ECAPA-TDNN",
+    "effect_type": "main",
+    "effect_name": "denoise",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.0004578777606780715,
+    "accuracy_effect_fold_sd": 1.392871219033763e-05,
+    "balanced_accuracy_effect_mean": -0.0009011447064629641,
+    "f1_macro_effect_mean": -0.0007100071379011474
+  },
+  {
+    "model_id": "speechbrain_ecapa",
+    "model_display_name": "SpeechBrain — ECAPA-TDNN",
+    "effect_type": "main",
+    "effect_name": "normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 0.0,
+    "accuracy_effect_fold_sd": 0.0,
+    "balanced_accuracy_effect_mean": 0.0,
+    "f1_macro_effect_mean": 0.0
+  },
+  {
+    "model_id": "speechbrain_ecapa",
+    "model_display_name": "SpeechBrain — ECAPA-TDNN",
+    "effect_type": "main",
+    "effect_name": "trim",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 9.849086842983468e-06,
+    "accuracy_effect_fold_sd": 0.000647536939059951,
+    "balanced_accuracy_effect_mean": -0.00011137829934387833,
+    "f1_macro_effect_mean": 3.7356587657577656e-05
+  },
+  {
+    "model_id": "speechbrain_ecapa",
+    "model_display_name": "SpeechBrain — ECAPA-TDNN",
+    "effect_type": "three_way_interaction",
+    "effect_name": "trim:denoise:normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 0.0,
+    "accuracy_effect_fold_sd": 0.0,
+    "balanced_accuracy_effect_mean": 0.0,
+    "f1_macro_effect_mean": 0.0
+  },
+  {
+    "model_id": "speechbrain_ecapa",
+    "model_display_name": "SpeechBrain — ECAPA-TDNN",
+    "effect_type": "two_way_interaction",
+    "effect_name": "denoise:normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 0.0,
+    "accuracy_effect_fold_sd": 0.0,
+    "balanced_accuracy_effect_mean": 0.0,
+    "f1_macro_effect_mean": 0.0
+  },
+  {
+    "model_id": "speechbrain_ecapa",
+    "model_display_name": "SpeechBrain — ECAPA-TDNN",
+    "effect_type": "two_way_interaction",
+    "effect_name": "trim:denoise",
+    "outer_folds": 2,
+    "accuracy_effect_mean": -0.0004578777606780715,
+    "accuracy_effect_fold_sd": 1.392871219033763e-05,
+    "balanced_accuracy_effect_mean": -0.0006279366585343338,
+    "f1_macro_effect_mean": -0.0005023478439084017
+  },
+  {
+    "model_id": "speechbrain_ecapa",
+    "model_display_name": "SpeechBrain — ECAPA-TDNN",
+    "effect_type": "two_way_interaction",
+    "effect_name": "trim:normalize",
+    "outer_folds": 2,
+    "accuracy_effect_mean": 0.0,
+    "accuracy_effect_fold_sd": 0.0,
+    "balanced_accuracy_effect_mean": 0.0,
+    "f1_macro_effect_mean": 0.0
+  }
+]

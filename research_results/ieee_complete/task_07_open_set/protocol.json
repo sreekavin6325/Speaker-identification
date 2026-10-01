@@ -1,0 +1,11 @@
+{
+  "known_identity_source": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_2fold_protocol.csv",
+  "known_speakers": 31,
+  "excluded_identity_partition": "Nine identities excluded from the strict grouped protocol were shuffled with seed 42 and split into disjoint threshold-calibration and final unknown-test identities.",
+  "threshold_rule": "Per fold, select the maximum-probability threshold minimizing absolute calibration FAR minus FRR.",
+  "important_limitations": [
+    "The five test folds are utterance-level within known identities.",
+    "The same disjoint unknown-test cohort is reused across folds.",
+    "Maximum softmax probability is a baseline rejection score, not a guaranteed calibrated posterior for novel populations."
+  ]
+}

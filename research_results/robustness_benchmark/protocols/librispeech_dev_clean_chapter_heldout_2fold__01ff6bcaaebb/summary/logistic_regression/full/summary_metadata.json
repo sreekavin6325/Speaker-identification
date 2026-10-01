@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "experiment": "robustness_summary",
+  "created_at_utc": "2026-08-05T07:15:49+00:00",
+  "protocol": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_2fold_protocol.csv",
+    "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+    "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d",
+    "full_row_count": 2185,
+    "selected_row_count": 2185,
+    "fold_values": [
+      1,
+      2
+    ],
+    "speaker_count": 31,
+    "source_group_count": 88,
+    "source_group_disjoint": true,
+    "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+    "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+  },
+  "models": [
+    "speechbrain_ecapa",
+    "speechbrain_xvector",
+    "wavlm_base_plus_sv",
+    "unispeech_sat_base_plus_sv"
+  ],
+  "conditions": [
+    "clean_full",
+    "short_0p5s",
+    "short_1s",
+    "short_2s",
+    "short_3s",
+    "noise_white_20db",
+    "noise_white_10db",
+    "noise_white_0db"
+  ],
+  "classifier": "logistic_regression",
+  "training_domain": "clean full-duration",
+  "test_domain": "strict held-out transformed clips",
+  "significance_test_performed": false,
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_benchmark\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\summary\\logistic_regression\\full"
+}

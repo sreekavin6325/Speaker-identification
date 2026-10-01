@@ -1,0 +1,13 @@
+{
+  "model_id": "speechbrain_ecapa",
+  "threshold": 0.29825,
+  "validation_far": 0.03329223181257707,
+  "validation_frr": 0.03288888888888889,
+  "test_far": 0.036991368680641186,
+  "test_frr": 0.03197158081705151,
+  "test_balanced_accuracy": 0.9655185252511536,
+  "test_roc_auc": 0.9945761323541973,
+  "known_test_samples": 1126,
+  "unknown_test_samples": 811,
+  "calibration_source": "enrolled five-speaker embeddings vs LibriSpeech dev-clean"
+}

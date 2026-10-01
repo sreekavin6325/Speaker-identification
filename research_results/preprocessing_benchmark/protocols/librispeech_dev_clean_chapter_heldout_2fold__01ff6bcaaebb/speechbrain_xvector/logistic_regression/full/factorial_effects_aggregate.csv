@@ -1,0 +1,8 @@
+model_id,model_display_name,effect_type,effect_name,outer_folds,accuracy_effect_mean,accuracy_effect_fold_sd,balanced_accuracy_effect_mean,f1_macro_effect_mean
+speechbrain_xvector,SpeechBrain — X-Vector,main,denoise,2,-0.003808243727598526,0.005385669928392106,-0.0040078599302145745,-0.004919063593500528
+speechbrain_xvector,SpeechBrain — X-Vector,main,normalize,2,0.0,0.0,0.0,0.0
+speechbrain_xvector,SpeechBrain — X-Vector,main,trim,2,0.009558853113652566,0.01161743503345075,0.009615364625586487,0.011111413245524726
+speechbrain_xvector,SpeechBrain — X-Vector,three_way_interaction,trim:denoise:normalize,2,0.0,0.0,0.0,0.0
+speechbrain_xvector,SpeechBrain — X-Vector,two_way_interaction,denoise:normalize,2,0.0,0.0,0.0,0.0
+speechbrain_xvector,SpeechBrain — X-Vector,two_way_interaction,trim:denoise,2,-0.000691741184438599,0.00034466153781548194,-0.00022573482771981457,-0.000260479654605128
+speechbrain_xvector,SpeechBrain — X-Vector,two_way_interaction,trim:normalize,2,0.0,0.0,0.0,0.0

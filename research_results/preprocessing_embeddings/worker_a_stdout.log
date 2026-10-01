@@ -1,0 +1,325 @@
+Starting: speechbrain_ecapa / normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Variant     : normalize
+Factors     : {'trim': False, 'denoise': False, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\normalize\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\normalize\full
+========================================================================
+Starting: speechbrain_ecapa / trim
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Variant     : trim
+Factors     : {'trim': True, 'denoise': False, 'normalize': False}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\trim\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\trim\full
+========================================================================
+Starting: speechbrain_ecapa / denoise
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Variant     : denoise
+Factors     : {'trim': False, 'denoise': True, 'normalize': False}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\denoise\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\denoise\full
+========================================================================
+Starting: speechbrain_ecapa / trim_normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Variant     : trim_normalize
+Factors     : {'trim': True, 'denoise': False, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\trim_normalize\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\trim_normalize\full
+========================================================================
+Starting: speechbrain_ecapa / denoise_normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Variant     : denoise_normalize
+Factors     : {'trim': False, 'denoise': True, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\denoise_normalize\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\denoise_normalize\full
+========================================================================
+Starting: speechbrain_ecapa / trim_denoise
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Variant     : trim_denoise
+Factors     : {'trim': True, 'denoise': True, 'normalize': False}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\trim_denoise\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\trim_denoise\full
+========================================================================
+Starting: speechbrain_ecapa / trim_denoise_normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Variant     : trim_denoise_normalize
+Factors     : {'trim': True, 'denoise': True, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\trim_denoise_normalize\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\trim_denoise_normalize\full
+========================================================================
+Starting: wavlm_base_plus_sv / normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Variant     : normalize
+Factors     : {'trim': False, 'denoise': False, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\normalize\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\normalize\full
+========================================================================
+Starting: wavlm_base_plus_sv / trim
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Variant     : trim
+Factors     : {'trim': True, 'denoise': False, 'normalize': False}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\trim\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\trim\full
+========================================================================
+Starting: wavlm_base_plus_sv / denoise
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Variant     : denoise
+Factors     : {'trim': False, 'denoise': True, 'normalize': False}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\denoise\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\denoise\full
+========================================================================
+Starting: wavlm_base_plus_sv / trim_normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Variant     : trim_normalize
+Factors     : {'trim': True, 'denoise': False, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\trim_normalize\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\trim_normalize\full
+========================================================================
+Starting: wavlm_base_plus_sv / denoise_normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Variant     : denoise_normalize
+Factors     : {'trim': False, 'denoise': True, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\denoise_normalize\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\denoise_normalize\full
+========================================================================
+Starting: wavlm_base_plus_sv / trim_denoise
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Variant     : trim_denoise
+Factors     : {'trim': True, 'denoise': True, 'normalize': False}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\trim_denoise\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\trim_denoise\full
+========================================================================
+Starting: wavlm_base_plus_sv / trim_denoise_normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Variant     : trim_denoise_normalize
+Factors     : {'trim': True, 'denoise': True, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\trim_denoise_normalize\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...

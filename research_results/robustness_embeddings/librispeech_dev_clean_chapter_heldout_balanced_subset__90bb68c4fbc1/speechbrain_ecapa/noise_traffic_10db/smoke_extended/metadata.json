@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "experiment": "robustness_embedding_extraction",
+  "completed_at_utc": "2026-08-06T04:37:01+00:00",
+  "model_id": "speechbrain_ecapa",
+  "model": {
+    "display_name": "SpeechBrain — ECAPA-TDNN",
+    "provider": "SpeechBrain",
+    "architecture": "ECAPA-TDNN",
+    "pretrained_name": "speechbrain/spkrec-ecapa-voxceleb"
+  },
+  "condition": "noise_traffic_10db",
+  "condition_definition": {
+    "family": "additive_environmental_noise",
+    "noise_type": "traffic",
+    "snr_db": 10.0
+  },
+  "seed": 42,
+  "tag": "smoke_extended",
+  "protocol": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_balanced_subset_protocol.csv",
+    "sha256": "90bb68c4fbc1b741196d7e02808d3ac6bee8a6551ae6da160056556df538f5cf",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1",
+    "ordered_assignment_sha256": "bb23f0677c381fe70043d22bde279cb55d4df69155952e9f733c0faa2700bbf7",
+    "full_row_count": 186,
+    "selected_row_count": 2,
+    "fold_values": [
+      1,
+      2
+    ],
+    "speaker_count": 31,
+    "source_group_count": 82,
+    "source_group_disjoint": true,
+    "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+    "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+  },
+  "requested_rows": 2,
+  "successful_rows": 2,
+  "failed_rows": 0,
+  "coverage_percent": 100.0,
+  "embedding_dimension": 192,
+  "number_of_speakers": 1,
+  "number_of_folds": 1,
+  "timing_ms": {
+    "minimum": 131.1358,
+    "median": 2533.8393,
+    "mean": 2533.8393,
+    "p95": 4936.5428,
+    "maximum": 4936.5428,
+    "total": 5067.6786
+  },
+  "wall_seconds": 5.104094900074415,
+  "failure_types": {},
+  "artifact_sha256": {
+    "X.npy": "def6fea5103850a53b7d88d0ed73ee0785ba8adbd246448e8ddef6d647702d93",
+    "y.npy": "faa0576898b2221938f6c26d5ca998f67e970f19f13cdf6ab02006b92c846069",
+    "clip_ids.npy": "543963dac0bcf0293132c2afa27c6360f3c189987aac00ad513fd9552109b35d",
+    "folds.npy": "d91d48189d62ecda6680d26b1d16c3548b65fd4bf21fecd6b90a7c1a30afcd14"
+  },
+  "derived_audio_retained": false,
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\noise_traffic_10db\\smoke_extended"
+}

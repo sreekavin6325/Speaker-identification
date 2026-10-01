@@ -1,0 +1,29 @@
+model_id,model_display_name,effect_type,effect_name,outer_folds,accuracy_effect_mean,accuracy_effect_fold_sd,balanced_accuracy_effect_mean,f1_macro_effect_mean
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,main,denoise,2,-0.0004578777606780715,1.392871219033763e-05,-0.0009011447064629641,-0.0007100071379011474
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,main,normalize,2,0.0,0.0,0.0,0.0
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,main,trim,2,9.849086842983468e-06,0.000647536939059951,-0.00011137829934387833,3.7356587657577656e-05
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,three_way_interaction,trim:denoise:normalize,2,0.0,0.0,0.0,0.0
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,two_way_interaction,denoise:normalize,2,0.0,0.0,0.0,0.0
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,two_way_interaction,trim:denoise,2,-0.0004578777606780715,1.392871219033763e-05,-0.0006279366585343338,-0.0005023478439084017
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,two_way_interaction,trim:normalize,2,0.0,0.0,0.0,0.0
+speechbrain_xvector,SpeechBrain — X-Vector,main,denoise,2,-0.003808243727598526,0.005385669928392106,-0.0040078599302145745,-0.004919063593500528
+speechbrain_xvector,SpeechBrain — X-Vector,main,normalize,2,0.0,0.0,0.0,0.0
+speechbrain_xvector,SpeechBrain — X-Vector,main,trim,2,0.009558853113652566,0.01161743503345075,0.009615364625586487,0.011111413245524726
+speechbrain_xvector,SpeechBrain — X-Vector,three_way_interaction,trim:denoise:normalize,2,0.0,0.0,0.0,0.0
+speechbrain_xvector,SpeechBrain — X-Vector,two_way_interaction,denoise:normalize,2,0.0,0.0,0.0,0.0
+speechbrain_xvector,SpeechBrain — X-Vector,two_way_interaction,trim:denoise,2,-0.000691741184438599,0.00034466153781548194,-0.00022573482771981457,-0.000260479654605128
+speechbrain_xvector,SpeechBrain — X-Vector,two_way_interaction,trim:normalize,2,0.0,0.0,0.0,0.0
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,main,denoise,2,0.004642796671260108,0.0043482772257929,0.004076022233836574,0.006218046887839612
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,main,normalize,2,0.0032396161286969427,0.002363880272042035,0.003897992648307147,0.0036294037038770433
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,main,trim,2,-0.005391117716285976,0.006631993313845905,-0.005318052415779317,-0.004247046036660984
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,three_way_interaction,trim:denoise:normalize,2,-0.004514758542301656,0.004069702981986619,-0.004254399132247122,-0.0047214511746135335
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,two_way_interaction,denoise:normalize,2,-0.0011249962280093229,0.0012602520976443719,-0.00145177551338177,-0.0012138481074087104
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,two_way_interaction,trim:denoise,2,-0.0016321194229022007,0.0019913613098458778,-0.0024663752384459503,-0.002927341923277871
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,two_way_interaction,trim:normalize,2,-0.0025281767705723768,0.000724144856106651,-0.0026110237522889435,-0.0025488941774716722
+unispeech_sat_base_plus_sv,Microsoft — UniSpeech-SAT Base Plus SV,main,denoise,2,-0.0029355517668004927,0.010104687982909998,-0.006672105321991251,-0.00426119675191744
+unispeech_sat_base_plus_sv,Microsoft — UniSpeech-SAT Base Plus SV,main,normalize,2,-0.0010080645161290591,0.001425618510456787,-0.0009432037870673593,-0.0005866492245554245
+unispeech_sat_base_plus_sv,Microsoft — UniSpeech-SAT Base Plus SV,main,trim,2,-0.005956078102001328,0.007100235127903103,-0.004732261074674282,-0.004644778443682662
+unispeech_sat_base_plus_sv,Microsoft — UniSpeech-SAT Base Plus SV,three_way_interaction,trim:denoise:normalize,2,-0.0012419279398896421,0.0010948856848315642,-0.001079474507489353,-0.0011887721155878772
+unispeech_sat_base_plus_sv,Microsoft — UniSpeech-SAT Base Plus SV,two_way_interaction,denoise:normalize,2,0.001505338624178898,0.001178457957973433,0.0013900747647878076,0.0015179727432261814
+unispeech_sat_base_plus_sv,Microsoft — UniSpeech-SAT Base Plus SV,two_way_interaction,trim:denoise,2,0.0009588190819143083,0.004663303205756621,0.00022015818523946074,-0.0005174041180155964
+unispeech_sat_base_plus_sv,Microsoft — UniSpeech-SAT Base Plus SV,two_way_interaction,trim:normalize,2,-0.00011200716845877201,0.00015840205671740332,-3.236030851438976e-05,0.00012476971031560868

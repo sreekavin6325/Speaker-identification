@@ -1,0 +1,6 @@
+manifest_index,clip_id,speaker_label,source_group,fold,status,embedding_index,extraction_time_ms,output_duration_seconds,measured_snr_db,padded_samples,embedding_l2_norm,error_type,error_message
+0,1272-128104-0000,LibriSpeech_1272,1272/128104,1,success,0,13801.4041,0.5,,0,1.0,,
+1,1272-128104-0001,LibriSpeech_1272,1272/128104,1,success,1,102.0707,0.5,,0,1.0,,
+2,1272-128104-0002,LibriSpeech_1272,1272/128104,1,success,2,109.4625,0.5,,0,1.0,,
+3,1272-128104-0003,LibriSpeech_1272,1272/128104,1,success,3,116.9089,0.5,,0,0.9999999403953552,,
+4,1272-128104-0004,LibriSpeech_1272,1272/128104,1,success,4,116.3656,0.5,,0,1.0,,

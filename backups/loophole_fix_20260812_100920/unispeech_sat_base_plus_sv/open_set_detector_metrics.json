@@ -1,0 +1,13 @@
+{
+  "model_id": "unispeech_sat_base_plus_sv",
+  "threshold": 0.537,
+  "validation_far": 0.15782983970406905,
+  "validation_frr": 0.15804327375352775,
+  "test_far": 0.14796547472256474,
+  "test_frr": 0.14299153339604892,
+  "test_balanced_accuracy": 0.8545214959406933,
+  "test_roc_auc": 0.9258189081688404,
+  "known_test_samples": 1063,
+  "unknown_test_samples": 811,
+  "calibration_source": "enrolled five-speaker embeddings vs LibriSpeech dev-clean"
+}

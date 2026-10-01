@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "experiment": "manifest_embedding_extraction",
+  "tag": "full",
+  "model_id": "speechbrain_xvector",
+  "display_name": "SpeechBrain — X-Vector",
+  "provider": "SpeechBrain",
+  "architecture": "X-Vector TDNN",
+  "pretrained_name": "speechbrain/spkrec-xvect-voxceleb",
+  "device": "cpu",
+  "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+  "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+  "requested_rows": 2703,
+  "processed_rows": 2703,
+  "successful_rows": 2703,
+  "failed_rows": 0,
+  "coverage_percent": 100.0,
+  "embedding_dimension": 512,
+  "number_of_speakers": 40,
+  "number_of_folds": 5,
+  "cold_first_success_ms": 286.90019994974136,
+  "all_success_timing_ms": {
+    "minimum": 11.423900024965405,
+    "median": 30.545799992978573,
+    "mean": 35.37161798131815,
+    "p95": 70.11239998973906,
+    "maximum": 286.90019994974136,
+    "total": 95609.48340350296
+  },
+  "warm_success_timing_ms": {
+    "minimum": 11.423900024965405,
+    "median": 30.53729998646304,
+    "mean": 35.27852820264738,
+    "p95": 69.99400001950562,
+    "maximum": 132.11889995727688,
+    "total": 95322.58320355322
+  },
+  "wall_seconds": 108.95635970006697,
+  "failure_types": {},
+  "completed_at_utc": "2026-07-30T04:54:46+00:00"
+}

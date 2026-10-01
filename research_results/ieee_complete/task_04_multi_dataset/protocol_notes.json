@@ -1,0 +1,8 @@
+{
+  "comparison_classifier": "StandardScaler + linear SVM",
+  "folds": 5,
+  "random_seed": 42,
+  "original_dataset_common_clip_count": 7084,
+  "fairness_control": "Only the exact clip intersection available for all four embedding models was evaluated.",
+  "limitation": "The original Kaggle-derived recordings may contain adjacent fragments from shared source recordings. Source-session IDs were not available, so its utterance-level folds can be optimistic. LibriSpeech and the original corpus also have different speaker counts; raw cross-dataset accuracy differences are descriptive, not a controlled ranking. Chance-normalized values are reported."
+}

@@ -1,0 +1,12 @@
+{
+  "model_id": "speechbrain_xvector",
+  "samples_before_filter": 7501,
+  "minimum_duration_seconds": 0.25,
+  "short_files_removed": 86,
+  "exact_duplicate_files_removed": 1,
+  "missing_or_unreadable_files_removed": 0,
+  "filter_applied": true,
+  "important_split_limitation": "Original source-recording/session identifiers are unavailable. The train/test split remains utterance-level and may be optimistic when adjacent clips came from the same source recording.",
+  "samples_after_filter": 7414,
+  "samples_removed_total": 87
+}

@@ -1,0 +1,176 @@
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Condition   : noise_office_10db
+Rows        : 186
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\noise_office_10db\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 186
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\noise_office_10db\full
+========================================================================
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Condition   : noise_cafe_10db
+Rows        : 186
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\noise_cafe_10db\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 186
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\noise_cafe_10db\full
+========================================================================
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Condition   : noise_rain_10db
+Rows        : 186
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\noise_rain_10db\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 186
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\noise_rain_10db\full
+========================================================================
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Condition   : noise_fan_10db
+Rows        : 186
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\noise_fan_10db\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 186
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\noise_fan_10db\full
+========================================================================
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Condition   : noise_street_10db
+Rows        : 186
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\noise_street_10db\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 186
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\noise_street_10db\full
+========================================================================
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Condition   : sample_rate_8k
+Rows        : 186
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\sample_rate_8k\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 186
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\sample_rate_8k\full
+========================================================================
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Condition   : sample_rate_16k
+Rows        : 186
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\sample_rate_16k\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 186
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\sample_rate_16k\full
+========================================================================
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Condition   : sample_rate_22k05
+Rows        : 186
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\sample_rate_22k05\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 186
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\speechbrain_ecapa\sample_rate_22k05\full
+========================================================================

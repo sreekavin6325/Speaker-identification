@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "experiment": "manifest_embedding_extraction",
+  "tag": "smoke",
+  "model_id": "unispeech_sat_base_plus_sv",
+  "display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+  "provider": "Microsoft / Hugging Face",
+  "architecture": "UniSpeech-SAT + X-Vector Head",
+  "pretrained_name": "microsoft/unispeech-sat-base-plus-sv",
+  "device": "cpu",
+  "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+  "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+  "requested_rows": 5,
+  "processed_rows": 5,
+  "successful_rows": 5,
+  "failed_rows": 0,
+  "coverage_percent": 100.0,
+  "embedding_dimension": 512,
+  "number_of_speakers": 1,
+  "number_of_folds": 4,
+  "cold_first_success_ms": 13099.125699955039,
+  "all_success_timing_ms": {
+    "minimum": 359.5931000309065,
+    "median": 797.3641999997199,
+    "mean": 3385.065200016834,
+    "p95": 13099.125699955039,
+    "maximum": 13099.125699955039,
+    "total": 16925.32600008417
+  },
+  "warm_success_timing_ms": {
+    "minimum": 359.5931000309065,
+    "median": 723.2602000003681,
+    "mean": 956.5500750322826,
+    "p95": 2020.0868000974879,
+    "maximum": 2020.0868000974879,
+    "total": 3826.2003001291305
+  },
+  "wall_seconds": 16.95784080005251,
+  "failure_types": {},
+  "completed_at_utc": "2026-07-30T04:44:40+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "selection": "20 deterministic clips per each of 40 speakers",
+  "samples": 800,
+  "random_seed": 42,
+  "common_clip_ids_across_models": true,
+  "standardization": "StandardScaler fit separately per embedding model",
+  "parameters": {
+    "PCA": "2 components",
+    "t-SNE": "perplexity=30, init=PCA, 1200 iterations",
+    "UMAP": "n_neighbors=15, min_dist=0.1, metric=cosine"
+  },
+  "interpretation_note": "The two-dimensional silhouette score describes the plotted projection and is not a substitute for classification accuracy."
+}

@@ -1,0 +1,26 @@
+{
+    "model_id": "wavlm_base_plus_sv",
+    "display_name": "Microsoft \u2014 WavLM Base Plus SV",
+    "provider": "Microsoft",
+    "architecture": "WavLM Transformer",
+    "embedding_dimension": 512,
+    "number_of_samples": 7329,
+    "number_of_speakers": 5,
+    "training_samples": 5863,
+    "testing_samples": 1466,
+    "kernel": "rbf",
+    "c_value": 10.0,
+    "accuracy": 0.8840381991814461,
+    "precision_weighted": 0.8853360088663357,
+    "recall_weighted": 0.8840381991814461,
+    "f1_weighted": 0.8843059884089742,
+    "f1_macro": 0.8836866517875652,
+    "training_seconds": 10.83197410000139,
+    "speakers": [
+        "Benjamin_Netanyau",
+        "Jens_Stoltenberg",
+        "Julia_Gillard",
+        "Magaret_Tarcher",
+        "Nelson_Mandela"
+    ]
+}

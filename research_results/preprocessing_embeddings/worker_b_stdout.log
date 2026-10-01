@@ -1,0 +1,337 @@
+Starting: speechbrain_xvector / normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Variant     : normalize
+Factors     : {'trim': False, 'denoise': False, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\normalize\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\normalize\full
+========================================================================
+Starting: speechbrain_xvector / trim
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Variant     : trim
+Factors     : {'trim': True, 'denoise': False, 'normalize': False}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\trim\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\trim\full
+========================================================================
+Starting: speechbrain_xvector / denoise
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Variant     : denoise
+Factors     : {'trim': False, 'denoise': True, 'normalize': False}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\denoise\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\denoise\full
+========================================================================
+Starting: speechbrain_xvector / trim_normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Variant     : trim_normalize
+Factors     : {'trim': True, 'denoise': False, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\trim_normalize\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\trim_normalize\full
+========================================================================
+Starting: speechbrain_xvector / denoise_normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Variant     : denoise_normalize
+Factors     : {'trim': False, 'denoise': True, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\denoise_normalize\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\denoise_normalize\full
+========================================================================
+Starting: speechbrain_xvector / trim_denoise
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Variant     : trim_denoise
+Factors     : {'trim': True, 'denoise': True, 'normalize': False}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\trim_denoise\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\trim_denoise\full
+========================================================================
+Starting: speechbrain_xvector / trim_denoise_normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Variant     : trim_denoise_normalize
+Factors     : {'trim': True, 'denoise': True, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\trim_denoise_normalize\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\trim_denoise_normalize\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Variant     : normalize
+Factors     : {'trim': False, 'denoise': False, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\normalize\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\normalize\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / trim
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Variant     : trim
+Factors     : {'trim': True, 'denoise': False, 'normalize': False}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\trim\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\trim\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / denoise
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Variant     : denoise
+Factors     : {'trim': False, 'denoise': True, 'normalize': False}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\denoise\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\denoise\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / trim_normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Variant     : trim_normalize
+Factors     : {'trim': True, 'denoise': False, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\trim_normalize\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\trim_normalize\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / denoise_normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Variant     : denoise_normalize
+Factors     : {'trim': False, 'denoise': True, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\denoise_normalize\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\denoise_normalize\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / trim_denoise
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Variant     : trim_denoise
+Factors     : {'trim': True, 'denoise': True, 'normalize': False}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\trim_denoise\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\trim_denoise\full
+========================================================================
+Starting: unispeech_sat_base_plus_sv / trim_denoise_normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Variant     : trim_denoise_normalize
+Factors     : {'trim': True, 'denoise': True, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\trim_denoise_normalize\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\unispeech_sat_base_plus_sv\trim_denoise_normalize\full
+========================================================================
+Worker completed models: speechbrain_xvector,unispeech_sat_base_plus_sv

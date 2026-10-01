@@ -1,0 +1,13 @@
+{
+  "model_id": "speechbrain_xvector",
+  "threshold": 0.45625,
+  "validation_far": 0.12083847102342787,
+  "validation_frr": 0.12088888888888889,
+  "test_far": 0.12700369913686807,
+  "test_frr": 0.11989342806394317,
+  "test_balanced_accuracy": 0.8765514363995943,
+  "test_roc_auc": 0.9257194043710699,
+  "known_test_samples": 1126,
+  "unknown_test_samples": 811,
+  "calibration_source": "enrolled five-speaker embeddings vs LibriSpeech dev-clean"
+}

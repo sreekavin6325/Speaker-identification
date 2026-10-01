@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-08-05T04:20:34+00:00",
+  "experiment": "nested_svm_tuning_summary",
+  "status": "complete",
+  "protocol": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_2fold_protocol.csv",
+    "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+    "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d",
+    "rows": 2185,
+    "speakers": 31,
+    "source_groups": 88,
+    "fold_values": [
+      1,
+      2
+    ],
+    "fold_counts": {
+      "1": 1069,
+      "2": 1116
+    }
+  },
+  "embedding_tag": "full",
+  "models": [
+    "speechbrain_ecapa",
+    "speechbrain_xvector",
+    "wavlm_base_plus_sv",
+    "unispeech_sat_base_plus_sv"
+  ],
+  "tuned_run_root": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\hyperparameter_tuning\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\svm",
+  "baseline_run_root": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+  "baseline_classifiers": [
+    "linear_svm",
+    "rbf_svm"
+  ],
+  "selection_metric": "f1_macro",
+  "outer_evaluation": "Strict source-group-disjoint chapter-held-out protocol",
+  "alignment_checks": {
+    "all_four_models_complete": true,
+    "protocol_hashes_identical": true,
+    "protocol_assignments_identical": true,
+    "clip_id_hashes_identical_across_models": true,
+    "label_hashes_identical_across_models": true,
+    "tuned_and_baseline_embedding_hashes_identical_per_model": true,
+    "fold_train_test_counts_identical": true,
+    "outer_test_used_in_tuning": false,
+    "outer_clip_overlap_count": 0,
+    "outer_source_group_overlap_count": 0
+  },
+  "statistical_caution": "The strict protocol contains two correlated outer folds. Fold means, fold standard deviations, and paired deltas are descriptive only. No inferential statistical-significance claim is made.",
+  "significance_test_performed": false,
+  "runs": [
+    {
+      "model_order": 1,
+      "model_id": "speechbrain_ecapa",
+      "model_display_name": "ECAPA-TDNN",
+      "provider": "SpeechBrain",
+      "architecture": "ECAPA-TDNN",
+      "embedding_dimension": 192,
+      "embedding_tag": "full",
+      "tuned_run_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\hyperparameter_tuning\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\svm\\speechbrain_ecapa\\full",
+      "linear_svm_run_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\linear_svm\\full",
+      "rbf_svm_run_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_ecapa\\rbf_svm\\full",
+      "embedding_artifact_sha256": {
+        "X.npy": "0e35ba24ec87896634503a06d3a7d7b6157216329ad7b1f84b7406b65be353ea",
+        "y.npy": "2991812be9ca01e249fd5ea685b4ffdb738780c74f392a43c06616e1b519b44d",
+        "clip_ids.npy": "31fa152698a0eee897f56614ca268747b69295aafae4599484c89ed361efed35",
+        "folds.npy": "54cbfe144efdcc1708c2f5e9f8a1d8c398089a4f576b9102fb69c11cbd72434e",
+        "metadata.json": "aac5d3e791411f6380900b212c87d5f8cc9edf7d9cca18a7646ee0f9d861c6bd"
+      },
+      "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+      "selected_parameters": [
+        {
+          "outer_fold": 1,
+          "kernel": "linear",
+          "C": 0.01,
+          "gamma": "not_applicable",
+          "best_inner_macro_f1": 1.0
+        },
+        {
+          "outer_fold": 2,
+          "kernel": "linear",
+          "C": 0.01,
+          "gamma": "not_applicable",
+          "best_inner_macro_f1": 0.9984535501729003
+        }
+      ]
+    },
+    {
+      "model_order": 2,
+      "model_id": "speechbrain_xvector",
+      "model_display_name": "X-Vector",
+      "provider": "SpeechBrain",
+      "architecture": "X-Vector TDNN",
+      "embedding_dimension": 512,
+      "embedding_tag": "full",
+      "tuned_run_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\hyperparameter_tuning\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\svm\\speechbrain_xvector\\full",
+      "linear_svm_run_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_xvector\\linear_svm\\full",
+      "rbf_svm_run_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_xvector\\rbf_svm\\full",
+      "embedding_artifact_sha256": {
+        "X.npy": "aa3374cb03318c87b1b2236d8596a8eca9ed8e87c22728243d384a321ee3dd14",
+        "y.npy": "2991812be9ca01e249fd5ea685b4ffdb738780c74f392a43c06616e1b519b44d",
+        "clip_ids.npy": "31fa152698a0eee897f56614ca268747b69295aafae4599484c89ed361efed35",
+        "folds.npy": "54cbfe144efdcc1708c2f5e9f8a1d8c398089a4f576b9102fb69c11cbd72434e",
+        "metadata.json": "a5528729b60bcd5173627dce60b66969c95bc9226c8b5b461e487578e5c3e572"
+      },
+      "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+      "selected_parameters": [
+        {
+          "outer_fold": 1,
+          "kernel": "rbf",
+          "C": 10.0,
+          "gamma": "0.0001",
+          "best_inner_macro_f1": 1.0
+        },
+        {
+          "outer_fold": 2,
+          "kernel": "linear",
+          "C": 0.01,
+          "gamma": "not_applicable",
+          "best_inner_macro_f1": 0.9956956550046739
+        }
+      ]
+    },
+    {
+      "model_order": 3,
+      "model_id": "wavlm_base_plus_sv",
+      "model_display_name": "WavLM",
+      "provider": "Microsoft",
+      "architecture": "WavLM Transformer",
+      "embedding_dimension": 512,
+      "embedding_tag": "full",
+      "tuned_run_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\hyperparameter_tuning\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\svm\\wavlm_base_plus_sv\\full",
+      "linear_svm_run_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\wavlm_base_plus_sv\\linear_svm\\full",
+      "rbf_svm_run_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\wavlm_base_plus_sv\\rbf_svm\\full",
+      "embedding_artifact_sha256": {
+        "X.npy": "336b44ac3c3ee7e31734a6d53719d554f42fba52c9aa2b1868bcb65b8add6c2e",
+        "y.npy": "2991812be9ca01e249fd5ea685b4ffdb738780c74f392a43c06616e1b519b44d",
+        "clip_ids.npy": "31fa152698a0eee897f56614ca268747b69295aafae4599484c89ed361efed35",
+        "folds.npy": "54cbfe144efdcc1708c2f5e9f8a1d8c398089a4f576b9102fb69c11cbd72434e",
+        "metadata.json": "443834e09bf37cf0be127ceafcb1f9a6ba322be6bedc4d856c42710aab6e9f0c"
+      },
+      "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+      "selected_parameters": [
+        {
+          "outer_fold": 1,
+          "kernel": "rbf",
+          "C": 10.0,
+          "gamma": "0.001",
+          "best_inner_macro_f1": 0.9930684751280866
+        },
+        {
+          "outer_fold": 2,
+          "kernel": "rbf",
+          "C": 1.0,
+          "gamma": "scale",
+          "best_inner_macro_f1": 0.9834835453141023
+        }
+      ]
+    },
+    {
+      "model_order": 4,
+      "model_id": "unispeech_sat_base_plus_sv",
+      "model_display_name": "UniSpeech-SAT",
+      "provider": "Microsoft / Hugging Face",
+      "architecture": "UniSpeech-SAT + X-Vector Head",
+      "embedding_dimension": 512,
+      "embedding_tag": "full",
+      "tuned_run_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\hyperparameter_tuning\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\svm\\unispeech_sat_base_plus_sv\\full",
+      "linear_svm_run_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\unispeech_sat_base_plus_sv\\linear_svm\\full",
+      "rbf_svm_run_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\unispeech_sat_base_plus_sv\\rbf_svm\\full",
+      "embedding_artifact_sha256": {
+        "X.npy": "b33bbecfbe125d393e7e86b9591636be0c8f95209030118595518a1728fcb226",
+        "y.npy": "2991812be9ca01e249fd5ea685b4ffdb738780c74f392a43c06616e1b519b44d",
+        "clip_ids.npy": "31fa152698a0eee897f56614ca268747b69295aafae4599484c89ed361efed35",
+        "folds.npy": "54cbfe144efdcc1708c2f5e9f8a1d8c398089a4f576b9102fb69c11cbd72434e",
+        "metadata.json": "565c9c42262228a262a709a732ca2d7b2676442cf216dfa5ab52dbe045fcc339"
+      },
+      "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+      "selected_parameters": [
+        {
+          "outer_fold": 1,
+          "kernel": "linear",
+          "C": 0.01,
+          "gamma": "not_applicable",
+          "best_inner_macro_f1": 0.9891572696528912
+        },
+        {
+          "outer_fold": 2,
+          "kernel": "rbf",
+          "C": 100.0,
+          "gamma": "0.0001",
+          "best_inner_macro_f1": 0.9839978095076126
+        }
+      ]
+    }
+  ],
+  "artifacts": {
+    "model_level_csv": "model_level_comparison.csv",
+    "model_level_json": "model_level_comparison.json",
+    "fold_level_csv": "fold_level_comparison.csv",
+    "fold_level_json": "fold_level_comparison.json",
+    "selected_parameter_frequency_csv": "selected_parameter_frequency.csv",
+    "selected_parameter_frequency_json": "selected_parameter_frequency.json",
+    "timing_csv": "search_training_time.csv",
+    "timing_json": "search_training_time.json",
+    "accuracy_figure": [
+      "accuracy_comparison.png",
+      "accuracy_comparison.pdf"
+    ],
+    "macro_f1_figure": [
+      "macro_f1_comparison.png",
+      "macro_f1_comparison.pdf"
+    ],
+    "delta_figure": [
+      "delta_vs_default.png",
+      "delta_vs_default.pdf"
+    ]
+  },
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\hyperparameter_tuning\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\summary\\svm\\full"
+}

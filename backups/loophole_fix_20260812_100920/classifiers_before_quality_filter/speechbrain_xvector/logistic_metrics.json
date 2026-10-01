@@ -1,0 +1,27 @@
+{
+    "model_id": "speechbrain_xvector",
+    "display_name": "SpeechBrain \u2014 X-Vector",
+    "classifier_id": "logistic_regression",
+    "classifier_name": "Logistic Regression",
+    "embedding_dimension": 512,
+    "number_of_samples": 7501,
+    "number_of_speakers": 5,
+    "training_samples": 6000,
+    "testing_samples": 1501,
+    "c_value": 1.0,
+    "max_iter": 5000,
+    "training_accuracy": 0.9731666666666666,
+    "testing_accuracy": 0.9173884077281812,
+    "precision_weighted": 0.9170544784494298,
+    "recall_weighted": 0.9173884077281812,
+    "f1_weighted": 0.9170813491549427,
+    "f1_macro": 0.9170616256099349,
+    "training_seconds": 1.5813042999943718,
+    "speakers": [
+        "Benjamin_Netanyau",
+        "Jens_Stoltenberg",
+        "Julia_Gillard",
+        "Magaret_Tarcher",
+        "Nelson_Mandela"
+    ]
+}

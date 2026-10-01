@@ -1,0 +1,15 @@
+SPEAKER IDENTIFICATION REPORT
+=============================================
+
+Filename          : 33.wav
+Predicted Speaker : Nelson_Mandela
+Confidence        : 93.73%
+Inference Time    : 102.12 ms
+Embedding Model   : ECAPA-TDNN
+Classifier        : Support Vector Machine
+Generated At      : 22-07-2026 04:56 PM
+
+PROBABILITY SUMMARY
+---------------------------------------------
+1. Nelson_Mandela: 93.73%
+2. Other trained speakers: 6.27%

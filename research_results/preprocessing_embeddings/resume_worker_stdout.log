@@ -1,0 +1,31 @@
+Skipping completed: wavlm_base_plus_sv / normalize
+Skipping completed: wavlm_base_plus_sv / trim
+Skipping completed: wavlm_base_plus_sv / denoise
+Skipping completed: wavlm_base_plus_sv / trim_normalize
+Skipping completed: wavlm_base_plus_sv / denoise_normalize
+Skipping completed: wavlm_base_plus_sv / trim_denoise
+Starting: wavlm_base_plus_sv / trim_denoise_normalize
+
+========================================================================
+PREPROCESSING FACTORIAL EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Variant     : trim_denoise_normalize
+Factors     : {'trim': True, 'denoise': True, 'normalize': True}
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\trim_denoise_normalize\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+PREPROCESSING EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\preprocessing_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\wavlm_base_plus_sv\trim_denoise_normalize\full
+========================================================================
+Worker completed models: wavlm_base_plus_sv

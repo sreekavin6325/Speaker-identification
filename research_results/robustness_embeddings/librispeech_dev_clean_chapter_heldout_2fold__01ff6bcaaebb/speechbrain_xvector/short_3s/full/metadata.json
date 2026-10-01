@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "experiment": "robustness_embedding_extraction",
+  "completed_at_utc": "2026-08-05T05:15:15+00:00",
+  "model_id": "speechbrain_xvector",
+  "model": {
+    "display_name": "SpeechBrain — X-Vector",
+    "provider": "SpeechBrain",
+    "architecture": "X-Vector TDNN",
+    "pretrained_name": "speechbrain/spkrec-xvect-voxceleb"
+  },
+  "condition": "short_3s",
+  "condition_definition": {
+    "family": "short_duration",
+    "duration_seconds": 3.0,
+    "crop": "center"
+  },
+  "seed": 42,
+  "tag": "full",
+  "protocol": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_2fold_protocol.csv",
+    "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+    "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d",
+    "full_row_count": 2185,
+    "selected_row_count": 2185,
+    "fold_values": [
+      1,
+      2
+    ],
+    "speaker_count": 31,
+    "source_group_count": 88,
+    "source_group_disjoint": true,
+    "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+    "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+  },
+  "requested_rows": 2185,
+  "successful_rows": 2185,
+  "failed_rows": 0,
+  "coverage_percent": 100.0,
+  "embedding_dimension": 512,
+  "number_of_speakers": 31,
+  "number_of_folds": 2,
+  "timing_ms": {
+    "minimum": 18.8145,
+    "median": 25.2331,
+    "mean": 27.342799725400457,
+    "p95": 33.929,
+    "maximum": 2594.6864,
+    "total": 59744.0174
+  },
+  "wall_seconds": 61.55331250000745,
+  "failure_types": {},
+  "artifact_sha256": {
+    "X.npy": "2389d30488e864bfd75788de0d2b80b3efe0844d8bf59543c073bf75342639ec",
+    "y.npy": "69db537d7132d1398e0831a58f246ddc93e15fda7b5046f7621739d7d29b3e30",
+    "clip_ids.npy": "6d43960eb5d1beb5e46d3f72b7512f84b9f99f26f5a22b47780eaea1e3d6aa7d",
+    "folds.npy": "4c45e48dfccc19a63e52da443dc3e642a69d9c899761e1ae1b50cb730e535929"
+  },
+  "derived_audio_retained": false,
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_xvector\\short_3s\\full"
+}

@@ -1,0 +1,6 @@
+task,status,evidence
+Task 1 — Four-model comparison,COMPLETE,tasks_01_02_model_cv/model_comparison.csv
+Task 2 — Five-fold cross-validation,COMPLETE,tasks_01_02_model_cv/five_fold_metrics.csv
+Task 4 — Additional public dataset,COMPLETE,task_04_multi_dataset/dataset_comparison.csv
+Task 7 — Open-set recognition,COMPLETE,task_07_open_set/open_set_summary.csv
+Task 11 — Statistical analysis,COMPLETE,task_11_statistics/pairwise_significance_tests.csv

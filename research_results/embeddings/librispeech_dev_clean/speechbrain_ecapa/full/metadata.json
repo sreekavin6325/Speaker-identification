@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "experiment": "manifest_embedding_extraction",
+  "tag": "full",
+  "model_id": "speechbrain_ecapa",
+  "display_name": "SpeechBrain — ECAPA-TDNN",
+  "provider": "SpeechBrain",
+  "architecture": "ECAPA-TDNN",
+  "pretrained_name": "speechbrain/spkrec-ecapa-voxceleb",
+  "device": "cpu",
+  "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+  "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+  "requested_rows": 2703,
+  "processed_rows": 2703,
+  "successful_rows": 2703,
+  "failed_rows": 0,
+  "coverage_percent": 100.0,
+  "embedding_dimension": 192,
+  "number_of_speakers": 40,
+  "number_of_folds": 5,
+  "cold_first_success_ms": 2407.100399956107,
+  "all_success_timing_ms": {
+    "minimum": 54.559500073082745,
+    "median": 134.43980005104095,
+    "mean": 157.97880577171395,
+    "p95": 319.61410003714263,
+    "maximum": 2407.100399956107,
+    "total": 427016.7120009428
+  },
+  "warm_success_timing_ms": {
+    "minimum": 54.559500073082745,
+    "median": 134.42530005704612,
+    "mean": 157.1464143600987,
+    "p95": 317.5530000589788,
+    "maximum": 622.5530999945477,
+    "total": 424609.6116009867
+  },
+  "wall_seconds": 461.95404650003184,
+  "failure_types": {},
+  "completed_at_utc": "2026-07-30T04:52:57+00:00"
+}

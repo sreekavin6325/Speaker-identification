@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "experiment": "clean_train_transformed_test_robustness",
+  "completed_at_utc": "2026-08-06T05:17:33+00:00",
+  "model_id": "speechbrain_ecapa",
+  "model": {
+    "display_name": "SpeechBrain — ECAPA-TDNN",
+    "provider": "SpeechBrain",
+    "architecture": "ECAPA-TDNN",
+    "pretrained_name": "speechbrain/spkrec-ecapa-voxceleb",
+    "embedding_dimension": 192
+  },
+  "classifier": {
+    "name": "logistic_regression",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 5000,
+    "seed": 42,
+    "standard_scaler_fit_partition": "clean_outer_training_only"
+  },
+  "protocol": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_balanced_subset_protocol.csv",
+    "sha256": "90bb68c4fbc1b741196d7e02808d3ac6bee8a6551ae6da160056556df538f5cf",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1",
+    "ordered_assignment_sha256": "bb23f0677c381fe70043d22bde279cb55d4df69155952e9f733c0faa2700bbf7",
+    "full_row_count": 186,
+    "selected_row_count": 186,
+    "fold_values": [
+      1,
+      2
+    ],
+    "speaker_count": 31,
+    "source_group_count": 82,
+    "source_group_disjoint": true,
+    "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+    "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+  },
+  "conditions": [
+    "clean_full",
+    "short_0p5s",
+    "short_1s",
+    "short_2s",
+    "short_3s",
+    "short_5s",
+    "short_10s",
+    "noise_white_10db",
+    "noise_traffic_10db",
+    "noise_office_10db",
+    "noise_cafe_10db",
+    "noise_rain_10db",
+    "noise_fan_10db",
+    "noise_street_10db",
+    "sample_rate_8k",
+    "sample_rate_16k",
+    "sample_rate_22k05"
+  ],
+  "condition_definitions": {
+    "short_0p5s": {
+      "family": "short_duration",
+      "duration_seconds": 0.5,
+      "crop": "center"
+    },
+    "short_1s": {
+      "family": "short_duration",
+      "duration_seconds": 1.0,
+      "crop": "center"
+    },
+    "short_2s": {
+      "family": "short_duration",
+      "duration_seconds": 2.0,
+      "crop": "center"
+    },
+    "short_3s": {
+      "family": "short_duration",
+      "duration_seconds": 3.0,
+      "crop": "center"
+    },
+    "short_5s": {
+      "family": "short_duration",
+      "duration_seconds": 5.0,
+      "crop": "center"
+    },
+    "short_10s": {
+      "family": "short_duration",
+      "duration_seconds": 10.0,
+      "crop": "center"
+    },
+    "noise_white_10db": {
+      "family": "additive_white_noise",
+      "snr_db": 10.0
+    },
+    "noise_traffic_10db": {
+      "family": "additive_environmental_noise",
+      "noise_type": "traffic",
+      "snr_db": 10.0
+    },
+    "noise_office_10db": {
+      "family": "additive_environmental_noise",
+      "noise_type": "office",
+      "snr_db": 10.0
+    },
+    "noise_cafe_10db": {
+      "family": "additive_environmental_noise",
+      "noise_type": "cafe",
+      "snr_db": 10.0
+    },
+    "noise_rain_10db": {
+      "family": "additive_environmental_noise",
+      "noise_type": "rain",
+      "snr_db": 10.0
+    },
+    "noise_fan_10db": {
+      "family": "additive_environmental_noise",
+      "noise_type": "fan",
+      "snr_db": 10.0
+    },
+    "noise_street_10db": {
+      "family": "additive_environmental_noise",
+      "noise_type": "street",
+      "snr_db": 10.0
+    },
+    "sample_rate_8k": {
+      "family": "sample_rate_ablation",
+      "target_sample_rate": 8000
+    },
+    "sample_rate_16k": {
+      "family": "sample_rate_ablation",
+      "target_sample_rate": 16000
+    },
+    "sample_rate_22k05": {
+      "family": "sample_rate_ablation",
+      "target_sample_rate": 22050
+    }
+  },
+  "method": {
+    "training_domain": "clean full-duration embeddings only",
+    "evaluation_domain": "same held-out clips transformed per condition",
+    "outer_test_used_for_fit": false,
+    "training_augmentation": false
+  },
+  "alignment_checks": {
+    "exact_clip_order_across_conditions": true,
+    "exact_labels_across_conditions": true,
+    "exact_outer_folds_across_conditions": true,
+    "outer_clip_overlap_count": 0,
+    "outer_source_group_overlap_count": 0
+  },
+  "clean_artifacts": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\speechbrain_ecapa\\full",
+  "condition_artifacts": {
+    "short_0p5s": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\short_0p5s\\full",
+    "short_1s": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\short_1s\\full",
+    "short_2s": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\short_2s\\full",
+    "short_3s": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\short_3s\\full",
+    "short_5s": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\short_5s\\full",
+    "short_10s": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\short_10s\\full",
+    "noise_white_10db": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\noise_white_10db\\full",
+    "noise_traffic_10db": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\noise_traffic_10db\\full",
+    "noise_office_10db": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\noise_office_10db\\full",
+    "noise_cafe_10db": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\noise_cafe_10db\\full",
+    "noise_rain_10db": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\noise_rain_10db\\full",
+    "noise_fan_10db": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\noise_fan_10db\\full",
+    "noise_street_10db": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\noise_street_10db\\full",
+    "sample_rate_8k": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\sample_rate_8k\\full",
+    "sample_rate_16k": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\sample_rate_16k\\full",
+    "sample_rate_22k05": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\sample_rate_22k05\\full"
+  },
+  "software": {
+    "python": "3.12.0",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "wall_seconds": 0.2709701999556273,
+  "statistical_caution": "The two strict outer folds are correlated. Means and fold standard deviations are descriptive; no significance claim is made.",
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_benchmark\\protocols\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\speechbrain_ecapa\\logistic_regression\\full"
+}

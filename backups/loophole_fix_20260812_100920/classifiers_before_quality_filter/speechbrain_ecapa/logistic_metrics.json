@@ -1,0 +1,27 @@
+{
+    "model_id": "speechbrain_ecapa",
+    "display_name": "SpeechBrain \u2014 ECAPA-TDNN",
+    "classifier_id": "logistic_regression",
+    "classifier_name": "Logistic Regression",
+    "embedding_dimension": 192,
+    "number_of_samples": 7501,
+    "number_of_speakers": 5,
+    "training_samples": 6000,
+    "testing_samples": 1501,
+    "c_value": 1.0,
+    "max_iter": 5000,
+    "training_accuracy": 0.9163333333333333,
+    "testing_accuracy": 0.8574283810792804,
+    "precision_weighted": 0.8577186290498829,
+    "recall_weighted": 0.8574283810792804,
+    "f1_weighted": 0.8575269946773657,
+    "f1_macro": 0.8574966726515207,
+    "training_seconds": 0.39804000000003725,
+    "speakers": [
+        "Benjamin_Netanyau",
+        "Jens_Stoltenberg",
+        "Julia_Gillard",
+        "Magaret_Tarcher",
+        "Nelson_Mandela"
+    ]
+}

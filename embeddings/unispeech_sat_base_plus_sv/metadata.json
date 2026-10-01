@@ -1,0 +1,21 @@
+{
+    "model_id": "unispeech_sat_base_plus_sv",
+    "display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+    "provider": "Microsoft / Hugging Face",
+    "architecture": "UniSpeech-SAT + X-Vector Head",
+    "pretrained_name": "microsoft/unispeech-sat-base-plus-sv",
+    "sample_rate": 16000,
+    "embedding_dimension": 512,
+    "number_of_embeddings": 7084,
+    "number_of_speakers": 5,
+    "speakers": {
+        "Benjamin_Netanyau": 1342,
+        "Jens_Stoltenberg": 1323,
+        "Julia_Gillard": 1501,
+        "Magaret_Tarcher": 1418,
+        "Nelson_Mandela": 1500
+    },
+    "successful_files": 7084,
+    "failed_files": 417,
+    "created_at": "2026-07-23T15:43:13"
+}

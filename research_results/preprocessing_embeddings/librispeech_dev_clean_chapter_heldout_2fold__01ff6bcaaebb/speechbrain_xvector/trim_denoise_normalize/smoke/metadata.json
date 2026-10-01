@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "experiment": "preprocessing_factorial_embedding_extraction",
+  "completed_at_utc": "2026-08-05T07:24:07+00:00",
+  "model_id": "speechbrain_xvector",
+  "model": {
+    "display_name": "SpeechBrain — X-Vector",
+    "provider": "SpeechBrain",
+    "architecture": "X-Vector TDNN",
+    "pretrained_name": "speechbrain/spkrec-xvect-voxceleb"
+  },
+  "variant": "trim_denoise_normalize",
+  "factors": {
+    "trim": true,
+    "denoise": true,
+    "normalize": true
+  },
+  "preprocessing_parameters": {
+    "trim": {
+      "method": "numpy frame-RMS threshold relative to maximum frame RMS",
+      "top_db": 30.0,
+      "frame_length": 2048,
+      "hop_length": 512,
+      "minimum_output_seconds": 0.5
+    },
+    "denoise": {
+      "algorithm": "noisereduce stationary spectral gate",
+      "stationary": true,
+      "prop_decrease": 0.8,
+      "n_std_thresh_stationary": 1.5,
+      "n_fft": 1024,
+      "use_torch": false,
+      "n_jobs": 1
+    },
+    "normalize": {
+      "method": "peak",
+      "target_peak": 0.95
+    },
+    "order": [
+      "trim",
+      "denoise",
+      "normalize"
+    ]
+  },
+  "tag": "smoke",
+  "protocol": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_2fold_protocol.csv",
+    "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+    "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d",
+    "full_row_count": 2185,
+    "selected_row_count": 3,
+    "fold_values": [
+      1,
+      2
+    ],
+    "speaker_count": 31,
+    "source_group_count": 88,
+    "source_group_disjoint": true,
+    "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+    "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+  },
+  "requested_rows": 3,
+  "successful_rows": 3,
+  "failed_rows": 0,
+  "coverage_percent": 100.0,
+  "embedding_dimension": 512,
+  "number_of_speakers": 1,
+  "number_of_folds": 1,
+  "timing_ms": {
+    "minimum": 78.5998,
+    "median": 153.6988,
+    "mean": 164.89263333333335,
+    "p95": 262.3793,
+    "maximum": 262.3793,
+    "total": 494.6779
+  },
+  "wall_seconds": 0.5052761000115424,
+  "failure_types": {},
+  "artifact_sha256": {
+    "X.npy": "998c64a3d25b665701eda3c848a0a22f7d68dbc8a389ff70e85c754893bbbb85",
+    "y.npy": "1bcfdca98f255532a1a3c791cf3998535f54e75966f976d56949ad76a6de3d8c",
+    "clip_ids.npy": "9ffa833872551a83b0ee018e45ede6518d8edc06255c92c5fff8aff4d726cc2c",
+    "folds.npy": "e07ffb8bef02b11551b1bb7227f9d33e18c8b29d47d26278acfbdceaffbc31ec"
+  },
+  "derived_audio_retained": false,
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\preprocessing_embeddings\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\speechbrain_xvector\\trim_denoise_normalize\\smoke"
+}

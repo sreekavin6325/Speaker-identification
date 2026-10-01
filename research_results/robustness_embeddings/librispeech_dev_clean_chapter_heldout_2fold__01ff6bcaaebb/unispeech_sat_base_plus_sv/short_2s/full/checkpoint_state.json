@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "model_id": "unispeech_sat_base_plus_sv",
+  "condition": "short_2s",
+  "protocol_sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+  "seed": 42,
+  "next_row_index": 2185,
+  "embedding_dimension": 512,
+  "processed_rows": 2185,
+  "successful_rows": 2185,
+  "updated_at_utc": "2026-08-05T06:22:32+00:00"
+}

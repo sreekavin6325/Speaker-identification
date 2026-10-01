@@ -1,0 +1,235 @@
+Skipping completed: speechbrain_ecapa / short_0p5s
+Skipping completed: speechbrain_ecapa / short_1s
+Skipping completed: speechbrain_ecapa / short_2s
+Skipping completed: speechbrain_ecapa / short_3s
+Resuming: speechbrain_ecapa / noise_white_20db
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Condition   : noise_white_20db
+Rows        : 2185
+Resume from : 700
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\noise_white_20db\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\noise_white_20db\full
+========================================================================
+Starting: speechbrain_ecapa / noise_white_10db
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Condition   : noise_white_10db
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\noise_white_10db\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\noise_white_10db\full
+========================================================================
+Starting: speechbrain_ecapa / noise_white_0db
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Condition   : noise_white_0db
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\noise_white_0db\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_ecapa\noise_white_0db\full
+========================================================================
+Starting: speechbrain_xvector / short_0p5s
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Condition   : short_0p5s
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\short_0p5s\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\short_0p5s\full
+========================================================================
+Starting: speechbrain_xvector / short_1s
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Condition   : short_1s
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\short_1s\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\short_1s\full
+========================================================================
+Starting: speechbrain_xvector / short_2s
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Condition   : short_2s
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\short_2s\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\short_2s\full
+========================================================================
+Starting: speechbrain_xvector / short_3s
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Condition   : short_3s
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\short_3s\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\short_3s\full
+========================================================================
+Starting: speechbrain_xvector / noise_white_20db
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Condition   : noise_white_20db
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\noise_white_20db\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\noise_white_20db\full
+========================================================================
+Starting: speechbrain_xvector / noise_white_10db
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Condition   : noise_white_10db
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\noise_white_10db\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\noise_white_10db\full
+========================================================================
+Starting: speechbrain_xvector / noise_white_0db
+
+========================================================================
+ROBUSTNESS EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Condition   : noise_white_0db
+Rows        : 2185
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\noise_white_0db\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+ROBUSTNESS EXTRACTION COMPLETED
+========================================================================
+Successful : 2185
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\robustness_embeddings\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\speechbrain_xvector\noise_white_0db\full
+========================================================================
+Worker completed models: speechbrain_ecapa,speechbrain_xvector

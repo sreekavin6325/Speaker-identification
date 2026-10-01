@@ -1,0 +1,9 @@
+{
+  "fresh_subprocess_per_model": true,
+  "execution": "sequential CPU profiling",
+  "memory_sampling_interval_ms": 20,
+  "audio_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_datasets\\LibriSpeech\\dev-clean\\1272\\128104\\1272-128104-0000.flac",
+  "warm_repetitions": 5,
+  "model_size_definition": "primary pretrained embedding-weight file",
+  "gpu_note": "GPU metrics are N/A when torch.cuda.is_available() is false."
+}

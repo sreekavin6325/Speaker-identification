@@ -1,0 +1,15 @@
+SPEAKER IDENTIFICATION REPORT
+=============================================
+
+Filename          : 126.wav
+Predicted Speaker : Jens_Stoltenberg
+Confidence        : 87.62%
+Inference Time    : 70.82 ms
+Embedding Model   : ECAPA-TDNN
+Classifier        : Support Vector Machine
+Generated At      : 22-07-2026 08:52 PM
+
+PROBABILITY SUMMARY
+---------------------------------------------
+1. Jens_Stoltenberg: 87.62%
+2. Other trained speakers: 12.38%

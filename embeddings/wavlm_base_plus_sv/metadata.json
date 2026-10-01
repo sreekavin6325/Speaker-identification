@@ -1,0 +1,21 @@
+{
+    "model_id": "wavlm_base_plus_sv",
+    "display_name": "Microsoft — WavLM Base Plus SV",
+    "provider": "Microsoft",
+    "architecture": "WavLM Transformer",
+    "pretrained_name": "microsoft/wavlm-base-plus-sv",
+    "sample_rate": 16000,
+    "embedding_dimension": 512,
+    "number_of_embeddings": 7329,
+    "number_of_speakers": 5,
+    "speakers": {
+        "Benjamin_Netanyau": 1438,
+        "Jens_Stoltenberg": 1419,
+        "Julia_Gillard": 1501,
+        "Magaret_Tarcher": 1471,
+        "Nelson_Mandela": 1500
+    },
+    "successful_files": 7329,
+    "failed_files": 172,
+    "created_at": "2026-07-23T14:39:15"
+}

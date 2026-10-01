@@ -1,0 +1,3 @@
+outer_fold,train_samples,test_samples,clip_overlap_count,source_group_overlap_count,test_only_speaker_count,train_only_speaker_count,inner_cv_partition,outer_test_used_in_tuning,inner_cv_type,inner_source_group_isolation_enforced,inner_folds,one_group_speaker_count
+1,1116,1069,0,0,0,0,outer_training_only,False,deterministic_shuffled_utterance_stratified,False,3,22
+2,1069,1116,0,0,0,0,outer_training_only,False,deterministic_shuffled_utterance_stratified,False,3,15

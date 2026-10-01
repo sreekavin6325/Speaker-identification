@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "experiment": "robustness_embedding_extraction",
+  "completed_at_utc": "2026-08-06T05:12:16+00:00",
+  "model_id": "wavlm_base_plus_sv",
+  "model": {
+    "display_name": "Microsoft — WavLM Base Plus SV",
+    "provider": "Microsoft",
+    "architecture": "WavLM Transformer",
+    "pretrained_name": "microsoft/wavlm-base-plus-sv"
+  },
+  "condition": "sample_rate_8k",
+  "condition_definition": {
+    "family": "sample_rate_ablation",
+    "target_sample_rate": 8000
+  },
+  "seed": 42,
+  "tag": "full",
+  "protocol": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_balanced_subset_protocol.csv",
+    "sha256": "90bb68c4fbc1b741196d7e02808d3ac6bee8a6551ae6da160056556df538f5cf",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1",
+    "ordered_assignment_sha256": "bb23f0677c381fe70043d22bde279cb55d4df69155952e9f733c0faa2700bbf7",
+    "full_row_count": 186,
+    "selected_row_count": 186,
+    "fold_values": [
+      1,
+      2
+    ],
+    "speaker_count": 31,
+    "source_group_count": 82,
+    "source_group_disjoint": true,
+    "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+    "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+  },
+  "requested_rows": 186,
+  "successful_rows": 186,
+  "failed_rows": 0,
+  "coverage_percent": 100.0,
+  "embedding_dimension": 512,
+  "number_of_speakers": 31,
+  "number_of_folds": 2,
+  "timing_ms": {
+    "minimum": 234.2384,
+    "median": 703.45675,
+    "mean": 852.5163451612902,
+    "p95": 1714.1169,
+    "maximum": 9732.1687,
+    "total": 158568.0402
+  },
+  "wall_seconds": 159.24378729995806,
+  "failure_types": {},
+  "artifact_sha256": {
+    "X.npy": "b4af00ad367d1eb9be7939811473d7c205317b095aa0bbad584ee32aea704dfe",
+    "y.npy": "10c21aaa519a6c20f44c5779544ef61881c25d40d20283217f1d6240254a2a21",
+    "clip_ids.npy": "589d7c42dfa9d46e1d71b179e956dffde294fb593ba37d6241e28c708de09b7b",
+    "folds.npy": "afea595b3ce5549ec39ed16046932f7b3351be29b980827e8ce6825ed6639c47"
+  },
+  "derived_audio_retained": false,
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\robustness_embeddings\\librispeech_dev_clean_chapter_heldout_balanced_subset__90bb68c4fbc1\\wavlm_base_plus_sv\\sample_rate_8k\\full"
+}

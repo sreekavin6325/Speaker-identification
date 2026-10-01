@@ -1,0 +1,8 @@
+model_id,model_display_name,effect_type,effect_name,outer_folds,accuracy_effect_mean,accuracy_effect_fold_sd,balanced_accuracy_effect_mean,f1_macro_effect_mean
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,main,denoise,2,-0.0004578777606780715,1.392871219033763e-05,-0.0009011447064629641,-0.0007100071379011474
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,main,normalize,2,0.0,0.0,0.0,0.0
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,main,trim,2,9.849086842983468e-06,0.000647536939059951,-0.00011137829934387833,3.7356587657577656e-05
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,three_way_interaction,trim:denoise:normalize,2,0.0,0.0,0.0,0.0
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,two_way_interaction,denoise:normalize,2,0.0,0.0,0.0,0.0
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,two_way_interaction,trim:denoise,2,-0.0004578777606780715,1.392871219033763e-05,-0.0006279366585343338,-0.0005023478439084017
+speechbrain_ecapa,SpeechBrain — ECAPA-TDNN,two_way_interaction,trim:normalize,2,0.0,0.0,0.0,0.0

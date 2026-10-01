@@ -1,0 +1,88 @@
+
+========================================================================
+RESEARCH EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — ECAPA-TDNN
+Rows        : 2703
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\embeddings\librispeech_dev_clean\speechbrain_ecapa\full
+========================================================================
+Loading SpeechBrain — ECAPA-TDNN on cpu...
+SpeechBrain — ECAPA-TDNN loaded successfully.
+
+========================================================================
+EXTRACTION COMPLETED
+========================================================================
+Successful : 2703
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 192
+Warm median: 134.43 ms
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\embeddings\librispeech_dev_clean\speechbrain_ecapa\full
+========================================================================
+
+========================================================================
+RESEARCH EMBEDDING EXTRACTION
+========================================================================
+Model       : SpeechBrain — X-Vector
+Rows        : 2703
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\embeddings\librispeech_dev_clean\speechbrain_xvector\full
+========================================================================
+Loading SpeechBrain — X-Vector on cpu...
+SpeechBrain — X-Vector loaded successfully.
+
+========================================================================
+EXTRACTION COMPLETED
+========================================================================
+Successful : 2703
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Warm median: 30.54 ms
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\embeddings\librispeech_dev_clean\speechbrain_xvector\full
+========================================================================
+
+========================================================================
+RESEARCH EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — WavLM Base Plus SV
+Rows        : 2703
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\embeddings\librispeech_dev_clean\wavlm_base_plus_sv\full
+========================================================================
+Loading Microsoft — WavLM Base Plus SV on cpu...
+Microsoft — WavLM Base Plus SV loaded successfully.
+
+========================================================================
+EXTRACTION COMPLETED
+========================================================================
+Successful : 2703
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Warm median: 444.18 ms
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\embeddings\librispeech_dev_clean\wavlm_base_plus_sv\full
+========================================================================
+
+========================================================================
+RESEARCH EMBEDDING EXTRACTION
+========================================================================
+Model       : Microsoft — UniSpeech-SAT Base Plus SV
+Rows        : 2703
+Resume from : 0
+Output      : C:\Users\addld\Desktop\speaker_identification_01\research_results\embeddings\librispeech_dev_clean\unispeech_sat_base_plus_sv\full
+========================================================================
+Loading Microsoft — UniSpeech-SAT Base Plus SV on cpu...
+Microsoft — UniSpeech-SAT Base Plus SV loaded successfully.
+
+========================================================================
+EXTRACTION COMPLETED
+========================================================================
+Successful : 2703
+Failed     : 0
+Coverage   : 100.00%
+Dimension  : 512
+Warm median: 387.44 ms
+Artifacts  : C:\Users\addld\Desktop\speaker_identification_01\research_results\embeddings\librispeech_dev_clean\unispeech_sat_base_plus_sv\full
+========================================================================

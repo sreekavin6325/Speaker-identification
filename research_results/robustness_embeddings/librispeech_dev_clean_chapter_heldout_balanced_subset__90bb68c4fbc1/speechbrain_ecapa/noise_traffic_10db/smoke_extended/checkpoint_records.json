@@ -1,0 +1,34 @@
+[
+  {
+    "manifest_index": 0,
+    "clip_id": "1272-128104-0003",
+    "speaker_label": "LibriSpeech_1272",
+    "source_group": "1272/128104",
+    "fold": 1,
+    "status": "success",
+    "embedding_index": 0,
+    "extraction_time_ms": 4936.5428,
+    "output_duration_seconds": 9.9,
+    "measured_snr_db": 10.000000262615647,
+    "padded_samples": "",
+    "embedding_l2_norm": 274.6764221191406,
+    "error_type": "",
+    "error_message": ""
+  },
+  {
+    "manifest_index": 1,
+    "clip_id": "1272-135031-0011",
+    "speaker_label": "LibriSpeech_1272",
+    "source_group": "1272/135031",
+    "fold": 1,
+    "status": "success",
+    "embedding_index": 1,
+    "extraction_time_ms": 131.1358,
+    "output_duration_seconds": 3.18,
+    "measured_snr_db": 10.00000016533904,
+    "padded_samples": "",
+    "embedding_l2_norm": 326.3117980957031,
+    "error_type": "",
+    "error_message": ""
+  }
+]

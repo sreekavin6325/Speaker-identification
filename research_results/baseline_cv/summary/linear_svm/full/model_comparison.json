@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "experiment": "four_model_fixed_fold_baseline_summary",
+  "generated_at_utc": "2026-07-30T05:59:12+00:00",
+  "classifier": "linear_svm",
+  "embedding_tag": "full",
+  "evaluation_protocol": null,
+  "model_count": 4,
+  "ranking_rule": "Descending five-fold mean accuracy, then descending macro F1, then model_id.",
+  "common_protocol_validation": {
+    "passed": true,
+    "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+    "evaluation_protocol_id": null,
+    "evaluation_protocol_sha256": null,
+    "ordered_assignment_sha256": null,
+    "fold_values": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "number_of_folds": 5,
+    "samples": 2703,
+    "speakers": 40,
+    "validated_fields": [
+      "manifest_sha256",
+      "evaluation_protocol_id",
+      "evaluation_protocol_sha256",
+      "ordered_assignment_sha256",
+      "fold_values",
+      "sample_count",
+      "speaker_count"
+    ]
+  },
+  "statistical_reporting": {
+    "performance_central_value": "arithmetic mean over folds",
+    "performance_error_bar": "sample standard deviation over folds",
+    "confidence_interval": "raw two-sided 95% Student-t intervals copied from each aggregate_metrics.json",
+    "chart_physical_bounds": "performance error bars clipped to [0, 1] for display only; raw statistics are retained in this JSON",
+    "timing_source": "warm_success_timing_ms in each full embedding metadata.json"
+  },
+  "models": [
+    {
+      "accuracy_rank": 1,
+      "model_id": "speechbrain_ecapa",
+      "display_name": "SpeechBrain — ECAPA-TDNN",
+      "provider": "SpeechBrain",
+      "architecture": "ECAPA-TDNN",
+      "pretrained_name": "speechbrain/spkrec-ecapa-voxceleb",
+      "classifier": "linear_svm",
+      "embedding_tag": "full",
+      "evaluation_protocol": null,
+      "protocol": {
+        "samples": 2703,
+        "speakers": 40,
+        "fold_values": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "embedding_dimension": 192,
+        "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+      },
+      "performance": {
+        "accuracy": {
+          "n": 5,
+          "mean": 0.9996268656716417,
+          "std": 0.0008343537229476975,
+          "ci95_half_width": 0.0010359869402985257,
+          "ci95_lower": 0.9985908787313432,
+          "ci95_upper": 1.0006628526119403,
+          "minimum": 0.9981343283582089,
+          "maximum": 1.0
+        },
+        "f1_macro": {
+          "n": 5,
+          "mean": 0.9996774193548387,
+          "std": 0.0007213122508063732,
+          "ci95_half_width": 0.0008956274193548255,
+          "ci95_lower": 0.9987817919354839,
+          "ci95_upper": 1.0005730467741936,
+          "minimum": 0.9983870967741936,
+          "maximum": 1.0
+        },
+        "fold_values": {
+          "accuracy": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9981343283582089
+          ],
+          "f1_macro": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.9983870967741936
+          ]
+        }
+      },
+      "embedding_extraction_timing_ms": {
+        "cold_first_success": 2407.100399956107,
+        "warm_success": {
+          "minimum": 54.559500073082745,
+          "median": 134.42530005704612,
+          "mean": 157.1464143600987,
+          "p95": 317.5530000589788,
+          "maximum": 622.5530999945477,
+          "total": 424609.6116009867
+        },
+        "coverage_percent": 100.0
+      },
+      "sources": {
+        "run_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\speechbrain_ecapa\\linear_svm\\full\\run_metadata.json",
+        "aggregate_metrics": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\speechbrain_ecapa\\linear_svm\\full\\aggregate_metrics.json",
+        "embedding_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\speechbrain_ecapa\\full\\metadata.json"
+      }
+    },
+    {
+      "accuracy_rank": 2,
+      "model_id": "speechbrain_xvector",
+      "display_name": "SpeechBrain — X-Vector",
+      "provider": "SpeechBrain",
+      "architecture": "X-Vector TDNN",
+      "pretrained_name": "speechbrain/spkrec-xvect-voxceleb",
+      "classifier": "linear_svm",
+      "embedding_tag": "full",
+      "evaluation_protocol": null,
+      "protocol": {
+        "samples": 2703,
+        "speakers": 40,
+        "fold_values": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "embedding_dimension": 512,
+        "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+      },
+      "performance": {
+        "accuracy": {
+          "n": 5,
+          "mean": 0.9981528896059142,
+          "std": 0.002255539763160394,
+          "ci95_half_width": 0.0028006224143194446,
+          "ci95_lower": 0.9953522671915948,
+          "ci95_upper": 1.0009535120202337,
+          "minimum": 0.994475138121547,
+          "maximum": 1.0
+        },
+        "f1_macro": {
+          "n": 5,
+          "mean": 0.9981059426500497,
+          "std": 0.002168148823087523,
+          "ci95_half_width": 0.0026921122343731628,
+          "ci95_lower": 0.9954138304156765,
+          "ci95_upper": 1.0007980548844229,
+          "minimum": 0.9948355964660311,
+          "maximum": 1.0
+        },
+        "fold_values": {
+          "accuracy": [
+            1.0,
+            1.0,
+            0.994475138121547,
+            0.9981549815498155,
+            0.9981343283582089
+          ],
+          "f1_macro": [
+            1.0,
+            1.0,
+            0.9948355964660311,
+            0.9972148541114059,
+            0.9984792626728112
+          ]
+        }
+      },
+      "embedding_extraction_timing_ms": {
+        "cold_first_success": 286.90019994974136,
+        "warm_success": {
+          "minimum": 11.423900024965405,
+          "median": 30.53729998646304,
+          "mean": 35.27852820264738,
+          "p95": 69.99400001950562,
+          "maximum": 132.11889995727688,
+          "total": 95322.58320355322
+        },
+        "coverage_percent": 100.0
+      },
+      "sources": {
+        "run_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\speechbrain_xvector\\linear_svm\\full\\run_metadata.json",
+        "aggregate_metrics": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\speechbrain_xvector\\linear_svm\\full\\aggregate_metrics.json",
+        "embedding_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\speechbrain_xvector\\full\\metadata.json"
+      }
+    },
+    {
+      "accuracy_rank": 3,
+      "model_id": "wavlm_base_plus_sv",
+      "display_name": "Microsoft — WavLM Base Plus SV",
+      "provider": "Microsoft",
+      "architecture": "WavLM Transformer",
+      "pretrained_name": "microsoft/wavlm-base-plus-sv",
+      "classifier": "linear_svm",
+      "embedding_tag": "full",
+      "evaluation_protocol": null,
+      "protocol": {
+        "samples": 2703,
+        "speakers": 40,
+        "fold_values": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "embedding_dimension": 512,
+        "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+      },
+      "performance": {
+        "accuracy": {
+          "n": 5,
+          "mean": 0.9841272530066771,
+          "std": 0.009690942668089612,
+          "ci95_half_width": 0.01203289416370464,
+          "ci95_lower": 0.9720943588429725,
+          "ci95_upper": 0.9961601471703818,
+          "minimum": 0.9705340699815838,
+          "maximum": 0.996268656716418
+        },
+        "f1_macro": {
+          "n": 5,
+          "mean": 0.9842256400097881,
+          "std": 0.01033108543048528,
+          "ci95_half_width": 0.012827736355365965,
+          "ci95_lower": 0.9713979036544221,
+          "ci95_upper": 0.997053376365154,
+          "minimum": 0.9692863266736073,
+          "maximum": 0.9964380712869371
+        },
+        "fold_values": {
+          "accuracy": [
+            0.9888888888888889,
+            0.985239852398524,
+            0.9705340699815838,
+            0.9797047970479705,
+            0.996268656716418
+          ],
+          "f1_macro": [
+            0.9899266880808526,
+            0.9857112631101765,
+            0.9692863266736073,
+            0.9797658508973672,
+            0.9964380712869371
+          ]
+        }
+      },
+      "embedding_extraction_timing_ms": {
+        "cold_first_success": 11378.363900003023,
+        "warm_success": {
+          "minimum": 159.47990003041923,
+          "median": 444.1835500183515,
+          "mean": 543.1812792390152,
+          "p95": 1230.0792000023648,
+          "maximum": 2904.4470000080764,
+          "total": 1467675.816503819
+        },
+        "coverage_percent": 100.0
+      },
+      "sources": {
+        "run_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\wavlm_base_plus_sv\\linear_svm\\full\\run_metadata.json",
+        "aggregate_metrics": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\wavlm_base_plus_sv\\linear_svm\\full\\aggregate_metrics.json",
+        "embedding_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\wavlm_base_plus_sv\\full\\metadata.json"
+      }
+    },
+    {
+      "accuracy_rank": 4,
+      "model_id": "unispeech_sat_base_plus_sv",
+      "display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+      "provider": "Microsoft / Hugging Face",
+      "architecture": "UniSpeech-SAT + X-Vector Head",
+      "pretrained_name": "microsoft/unispeech-sat-base-plus-sv",
+      "classifier": "linear_svm",
+      "embedding_tag": "full",
+      "evaluation_protocol": null,
+      "protocol": {
+        "samples": 2703,
+        "speakers": 40,
+        "fold_values": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "embedding_dimension": 512,
+        "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e"
+      },
+      "performance": {
+        "accuracy": {
+          "n": 5,
+          "mean": 0.9807704488798276,
+          "std": 0.0049472537385260975,
+          "ci95_half_width": 0.006142826624358911,
+          "ci95_lower": 0.9746276222554686,
+          "ci95_upper": 0.9869132755041865,
+          "minimum": 0.9742173112338858,
+          "maximum": 0.987037037037037
+        },
+        "f1_macro": {
+          "n": 5,
+          "mean": 0.9800992725096765,
+          "std": 0.00531466776568771,
+          "ci95_half_width": 0.006599031377035227,
+          "ci95_lower": 0.9735002411326413,
+          "ci95_upper": 0.9866983038867118,
+          "minimum": 0.9730081864440567,
+          "maximum": 0.9872023430050643
+        },
+        "fold_values": {
+          "accuracy": [
+            0.987037037037037,
+            0.977859778597786,
+            0.9742173112338858,
+            0.9833948339483395,
+            0.9813432835820896
+          ],
+          "f1_macro": [
+            0.9872023430050643,
+            0.9773210186904671,
+            0.9730081864440567,
+            0.9820743718716924,
+            0.9808904425371026
+          ]
+        }
+      },
+      "embedding_extraction_timing_ms": {
+        "cold_first_success": 2924.2455000057817,
+        "warm_success": {
+          "minimum": 108.99009997956455,
+          "median": 387.4370999983512,
+          "mean": 473.55060040661937,
+          "p95": 1068.8983999425545,
+          "maximum": 2273.3143999939784,
+          "total": 1279533.7222986855
+        },
+        "coverage_percent": 100.0
+      },
+      "sources": {
+        "run_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\unispeech_sat_base_plus_sv\\linear_svm\\full\\run_metadata.json",
+        "aggregate_metrics": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\unispeech_sat_base_plus_sv\\linear_svm\\full\\aggregate_metrics.json",
+        "embedding_metadata": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\unispeech_sat_base_plus_sv\\full\\metadata.json"
+      }
+    }
+  ],
+  "artifacts": {
+    "csv": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\summary\\linear_svm\\full\\model_comparison.csv",
+    "accuracy_png": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\summary\\linear_svm\\full\\accuracy_bar.png",
+    "accuracy_pdf": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\summary\\linear_svm\\full\\accuracy_bar.pdf",
+    "macro_f1_png": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\summary\\linear_svm\\full\\macro_f1_bar.png",
+    "macro_f1_pdf": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\summary\\linear_svm\\full\\macro_f1_bar.pdf",
+    "warm_timing_png": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\summary\\linear_svm\\full\\warm_extraction_timing_bar.png",
+    "warm_timing_pdf": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\summary\\linear_svm\\full\\warm_extraction_timing_bar.pdf"
+  }
+}

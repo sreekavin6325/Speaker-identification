@@ -1,0 +1,127 @@
+{
+  "schema_version": 2,
+  "experiment": "external_protocol_speaker_identification_sensitivity",
+  "completed_at_utc": "2026-07-30T06:09:26+00:00",
+  "model_id": "unispeech_sat_base_plus_sv",
+  "model": {
+    "display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+    "provider": "Microsoft / Hugging Face",
+    "architecture": "UniSpeech-SAT + X-Vector Head",
+    "pretrained_name": "microsoft/unispeech-sat-base-plus-sv",
+    "source": "microsoft/unispeech-sat-base-plus-sv"
+  },
+  "classifier": {
+    "name": "cosine_centroid",
+    "standard_scaler": {
+      "copy": true,
+      "with_mean": true,
+      "with_std": true,
+      "fit_partition": "training_fold_only"
+    },
+    "hyperparameters": {
+      "centroid_l2_normalization": true,
+      "class_prototype": "mean_normalized_training_embedding",
+      "input_l2_normalization": true,
+      "metric": "cosine_similarity"
+    },
+    "c": 1.0,
+    "gamma": "scale",
+    "max_iter": 5000,
+    "seed": 42
+  },
+  "protocol": {
+    "mode": "external_protocol_file",
+    "protocol_id": "librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb",
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_chapter_heldout_2fold_protocol.csv",
+    "sha256": "01ff6bcaaebb13d7656e841462a0a155347596c64bdfb6390f1fa46ff3798f86",
+    "ordered_assignment_sha256": "6d9af305c095acb9c69d8d9ac5a312762954d98dad4316da9b9534641aaf4a2d",
+    "row_count": 2185,
+    "fold_source": "external protocol CSV",
+    "fold_values": [
+      1,
+      2
+    ],
+    "fold_counts": {
+      "1": 1069,
+      "2": 1116
+    },
+    "number_of_folds": 2,
+    "samples": 2185,
+    "speakers": 31,
+    "source_groups": 88,
+    "embedding_dimension": 512,
+    "selection_policy": "exact_protocol_clip_ids",
+    "artifact_persisted_folds_overridden": true,
+    "source_group_disjoint_enforced": true,
+    "each_sample_tested_once": true,
+    "exact_clip_leakage_detected": false,
+    "source_group_overlap_is_reported_not_blocked": false,
+    "available_artifact_samples": 2703,
+    "excluded_artifact_samples": 518
+  },
+  "embedding_artifacts": {
+    "directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\embeddings\\librispeech_dev_clean\\unispeech_sat_base_plus_sv\\full",
+    "source_metadata": {
+      "schema_version": 1,
+      "experiment": "manifest_embedding_extraction",
+      "tag": "full",
+      "model_id": "unispeech_sat_base_plus_sv",
+      "display_name": "Microsoft — UniSpeech-SAT Base Plus SV",
+      "provider": "Microsoft / Hugging Face",
+      "architecture": "UniSpeech-SAT + X-Vector Head",
+      "pretrained_name": "microsoft/unispeech-sat-base-plus-sv",
+      "device": "cpu",
+      "manifest_path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+      "manifest_sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+      "requested_rows": 2703,
+      "processed_rows": 2703,
+      "successful_rows": 2703,
+      "failed_rows": 0,
+      "coverage_percent": 100.0,
+      "embedding_dimension": 512,
+      "number_of_speakers": 40,
+      "number_of_folds": 5,
+      "cold_first_success_ms": 2924.2455000057817,
+      "all_success_timing_ms": {
+        "minimum": 108.99009997956455,
+        "median": 387.5385000137612,
+        "mean": 474.45725778715916,
+        "p95": 1069.9787000194192,
+        "maximum": 2924.2455000057817,
+        "total": 1282457.9677986912
+      },
+      "warm_success_timing_ms": {
+        "minimum": 108.99009997956455,
+        "median": 387.4370999983512,
+        "mean": 473.55060040661937,
+        "p95": 1068.8983999425545,
+        "maximum": 2273.3143999939784,
+        "total": 1279533.7222986855
+      },
+      "wall_seconds": 1323.7523708998924,
+      "failure_types": {},
+      "completed_at_utc": "2026-07-30T05:42:14+00:00"
+    },
+    "sha256": {
+      "X.npy": "b33bbecfbe125d393e7e86b9591636be0c8f95209030118595518a1728fcb226",
+      "y.npy": "2991812be9ca01e249fd5ea685b4ffdb738780c74f392a43c06616e1b519b44d",
+      "clip_ids.npy": "31fa152698a0eee897f56614ca268747b69295aafae4599484c89ed361efed35",
+      "folds.npy": "54cbfe144efdcc1708c2f5e9f8a1d8c398089a4f576b9102fb69c11cbd72434e",
+      "metadata.json": "565c9c42262228a262a709a732ca2d7b2676442cf216dfa5ab52dbe045fcc339"
+    }
+  },
+  "manifest": {
+    "path": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\manifests\\librispeech_dev_clean_manifest.csv",
+    "sha256": "24a8a8c02f0b910583e7da049aa5641a4185b8df1b23d31b0c22976ab82f963e",
+    "row_count": 2703
+  },
+  "software": {
+    "python": "3.12.0",
+    "numpy": "2.0.2",
+    "scikit_learn": "1.7.1",
+    "xgboost": "3.3.0",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "wall_seconds": 0.1462331999791786,
+  "output_directory": "C:\\Users\\addld\\Desktop\\speaker_identification_01\\research_results\\baseline_cv\\protocols\\librispeech_dev_clean_chapter_heldout_2fold__01ff6bcaaebb\\unispeech_sat_base_plus_sv\\cosine_centroid\\full"
+}

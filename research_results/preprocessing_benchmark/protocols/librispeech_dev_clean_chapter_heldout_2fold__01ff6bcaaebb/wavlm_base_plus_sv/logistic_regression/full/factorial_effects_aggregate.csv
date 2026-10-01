@@ -1,0 +1,8 @@
+model_id,model_display_name,effect_type,effect_name,outer_folds,accuracy_effect_mean,accuracy_effect_fold_sd,balanced_accuracy_effect_mean,f1_macro_effect_mean
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,main,denoise,2,0.004642796671260108,0.0043482772257929,0.004076022233836574,0.006218046887839612
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,main,normalize,2,0.0032396161286969427,0.002363880272042035,0.003897992648307147,0.0036294037038770433
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,main,trim,2,-0.005391117716285976,0.006631993313845905,-0.005318052415779317,-0.004247046036660984
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,three_way_interaction,trim:denoise:normalize,2,-0.004514758542301656,0.004069702981986619,-0.004254399132247122,-0.0047214511746135335
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,two_way_interaction,denoise:normalize,2,-0.0011249962280093229,0.0012602520976443719,-0.00145177551338177,-0.0012138481074087104
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,two_way_interaction,trim:denoise,2,-0.0016321194229022007,0.0019913613098458778,-0.0024663752384459503,-0.002927341923277871
+wavlm_base_plus_sv,Microsoft — WavLM Base Plus SV,two_way_interaction,trim:normalize,2,-0.0025281767705723768,0.000724144856106651,-0.0026110237522889435,-0.0025488941774716722

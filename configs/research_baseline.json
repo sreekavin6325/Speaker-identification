@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "experiment_name": "librispeech_dev_clean_baseline",
+  "random_seed": 42,
+  "number_of_folds": 5,
+  "manifest": "manifests/librispeech_dev_clean_manifest.csv",
+  "embedding_models": [
+    "speechbrain_ecapa",
+    "speechbrain_xvector",
+    "wavlm_base_plus_sv",
+    "unispeech_sat_base_plus_sv"
+  ],
+  "classifiers": [
+    "svm_rbf",
+    "random_forest",
+    "logistic_regression",
+    "knn",
+    "xgboost",
+    "decision_tree"
+  ],
+  "primary_metrics": [
+    "accuracy",
+    "precision_macro",
+    "recall_macro",
+    "f1_macro",
+    "f1_weighted"
+  ]
+}
